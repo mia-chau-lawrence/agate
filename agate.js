@@ -11,6 +11,7 @@
         "Phone": " (609) 258-3000",
         },
 
+   
         /*{
         "Image":" ",
         "College":" ",
@@ -22,21 +23,24 @@
 
     function renderProfile (profileBoi) {
         let profileHtml = '';
+        
+        for (let profile of profileBoi) {
 
-        let profileTemplate = `
-            <div class="main-card">
-                <a href="${profile["College"]}"><img src="${profile["Image"]}" alt="Image not available" style="width:100%;" class="img-center">
-                <div class="profile-card">
-                    <h3>${profile["Name"]}</h3>
-                    <p>Address:${profile["Address"]}</p>
-                    <p>Phone:${profile["Phone"]}</p></a>
+            let profileTemplate = `
+                <div class="main-card">
+                    <a href="${profile["College"]}"><img src="${profile["Image"]}" alt="Image not available" style="width:100%;" class="img-center">
+                    <div class="profile-card">
+                            <h3>${profile["Name"]}</h3>
+                            <p>Address:${profile["Address"]}</p>
+                            <p>Phone:${profile["Phone"]}</p></a>
+                    </div>
                 </div>
-            </div>
-            `;
-        profileHtml += profileTemplate;   
-    }       
+                `;
+            profileHtml += profileTemplate;   
+        }       
 
         document.getElementById('profile-post').innerHTML = profileHtml;  
     }    
+    renderProfile(myProfile);
         
-());
+}());
