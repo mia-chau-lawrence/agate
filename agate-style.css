@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Raleway, sans-serif;
+    margin:0;
+}
+
+/*header below*/
+header {
+    width: 100%;
+    z-index: -1;
+}
+
+.head-text {
+    font-family:Raleway, sans-serif;
+    text-align:center;
+    width:100%;
+    padding:10px;
+    text-align:center;
+    position:relative;
+    color:black;
+    z-index: 0;
+}
+
+/*containers*/
+.page-container {
+    background-color:#f2f2f2;
+    display:flex;
+    width:100%;
+    flex-flow:row wrap;
+    padding: 65px 200px;
+}
+
+.main-enclose {
+    font-family:arial, sans-serif;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.12), 0 6px 12px rgba(0,0,0,0.24);
+    transition:0.3s;
+    padding:16px;
+    width:100%;
+    overflow:auto;
+    font-size:18px;
+    border-radius:5px;
+    border: 6px solid #248f8f;
+    /*border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+    border-width: 4px;
+    border-style: solid;*/
+}
+
+/*.main-enclose:hover {
+  box-shadow: 0 12px 24px rgba(0,0,0,0.12), 0 9px 18px rgba(0,0,0,0.24); 
+}*/
+
+.main-enclose a {
+    color:#2eb8b8;
+}
+
+.img-center {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+footer {
+    background-color:#555;
+    padding:20px;
+    font-size:14px;
+    color:white;
+}
+
+/* */
+
+.game-display {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    width:100%;
+}
+
+.game-display > div {
+    background-color:white;
+    margin: 20px;
+    font-size: 20px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.12), 0 6px 12px rgba(0,0,0,0.24);
+    transition:0.3s;
+}
+
+.question {
+    padding:16px;
+    font-size:14px;
+    line-height:normal;
+}
+
+.question a {
+    text-decoration:none;
+    color:black;
+} 
+
+.button-box {
+    text-align:center;
+}
+
+.back-button {
+    display:inline-block;
+    font-family:arial, sans-serif;
+    border-radius:10px;
+    border:none;
+    background-color: #29a3a3;
+    color:white;
+    padding:8px 14px;
+    text-align:center;
+    text-decoration:none;
+    font-size:15px;
+    width:60%;
+    cursor:pointer;
+    margin-top:8px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.back-button:hover {
+    background-color:#2eb8b8;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.24); 
+    transition:0.3s;    
+}
+
+@media screen and (max-width:1000px) {
+    .one-column {
+        padding:15px 20px;
+    }
+    
+    .profile > div {
+        width:40%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .lhs-column {
+      width:100%;
+    }
+    .rhs-column {
+     width:100%;
+    }
+    .twin-column, .three-column {
+        width:100%;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .ul.bookfilter{
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+  .about-column {
+      width:50%;
+    }
+  .main-enclose, .side-enclose {
+      margin:30px;
+    }
+  .side-enclose {
+      margin:30px;
+    }  
+  .b-container {
+      padding-top:16px; 
+    }
+   .top-bar {
+      flex-direction:column;
+      position: -webkit-static; /*safari*/
+      position: static;
+   }
+    .top-bar > div {
+      justify-content:center;
+   }
+   .p-column {
+      flex: 100%;
+      max-width:100%;
+   }
+} 
+
+@media screen and (max-width:700px) {
+    img.left {
+        width:100%; 
+        overflow:auto;
+    }
+    /*input[type=text].search-bar, .column-sides, {
+        width:100%;
+    }
+    .column-sides {
+        padding:0px 10px;
+    }*/
+}
+
+@media screen and (max-width: 500px) {
+   .profile > div {
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .button2 {
+        float:center;
+    }
+    .column-nav, .column-sides, ul.topnav li a, ul.topnav li {
+        width:100%;
+    }
+    .dropdown-content {
+        width:80%;
+    }
+    .search-container {
+        padding:0px 16px;
+    }
+    input[type=text].search-bar {
+        width:100%;
+        margin:16px 0px;
+    }
+}
+   
+@media screen and (max-width:300px) {
+    .main-card, .side-card {
+        font-size:14.5px;
+    }
+}
