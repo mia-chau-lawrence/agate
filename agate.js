@@ -70,6 +70,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     /*end*/ 
     };
 
+    const states = [];
     //new code
     function renderState (next) {
         let state = myAdventure[next];
@@ -83,9 +84,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         <h2 style="text-align:center">${state["title"]}</h2>
                         <p>${state["statement"]}</p>
                     </div>
-                    <div class="button-box">
-                        <button id="${state.choices[0].id}" class="answer-button" data-next="${state.choices[0].moveto}">${state.choices[0].label}</button>
-                    </div>
+                    <div class="button-box">`;
+                        for(let i=0;i<state.choices.length;i+=1) {
+                            tileTemplate += 
+                            `<button id="${state.choices[i].id}" class="answer-button" ` +
+                            `data-next="${state.choices[i].moveto}">` +
+                            `${state.choices[i].label}</button>`;
+                        }
+                    tileTemplate += `</div>
                 </div>
             </div> 
             `;
@@ -95,7 +101,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
         document.getElementById('text-tile').innerHTML = tileHtml;  
         document.getElementById(state.choices[0].id).onclick = function(e) { 
             //console.log(e);  
-            renderState(e.target.dataset["next"]); }
+            renderState(e.target.dataset["next"]); 
+            states.push(state["title"]);
+            console.log(states)
+        }
     }    
     
     console.log('HERE I AM '+(Date.UTC()));

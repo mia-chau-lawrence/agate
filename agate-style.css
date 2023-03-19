@@ -72,6 +72,7 @@ footer {
 /* */
 
 .content-display {
+    line-height: 1.6;
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
@@ -88,7 +89,6 @@ footer {
 .question {
     padding:16px;
     font-size:14px;
-    line-height:normal;
 }
 
 .question a {
