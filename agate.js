@@ -1,53 +1,12 @@
-(function () {
+document.addEventListener('DOMContentLoaded', (event) => {
+//(function () {
 
-    let myProfile = [
-    
-        /*{
-        "Image":"princeton-campus.jpeg",
-        "College":"college-stats.html", //create html file later
-        "Name":"Princeton University",
-        "State": " New Jersey",
-        "Address": " Princeton, NJ 08544",
-        "Phone": " (609) 258-3000",
-        },
-
-   
-        {
-        "Image":" ",
-        "College":" ",
-        "Name":" ",
-        "Joined": " ",
-        "Joined_value": " ",
-        },*/
-     ];
-
-    function renderProfile (profileBoi) {
-        let profileHtml = '';
-        
-        for (let profile of profileBoi) {
-
-            let profileTemplate = `
-                <div class="main-card">
-                    <a href="${profile["College"]}"><img src="${profile["Image"]}" alt="Image not available" style="width:100%;" class="img-center">
-                    <div class="profile-card">
-                            <h3>${profile["Name"]}</h3>
-                            <p>Address:${profile["Address"]}</p>
-                            <p>Phone:${profile["Phone"]}</p></a>
-                    </div>
-                </div>
-                `;
-            profileHtml += profileTemplate;   
-        }       
-
-        document.getElementById('profile-post').innerHTML = profileHtml;  
-    }    
-    renderProfile(myProfile);
-    
-    
     var myAdventure = {
         
         theBeginning: {
-            "statement": "Welcome to my game. Lets Play!",
+            "title": "Welcome",
+            "statement": "Welcome to my game. Let's Play!",
+
             "background_image": "..some..image",    
             "choices": [
                 { 
@@ -57,7 +16,7 @@
             ]
         },
 
-        StartPlaying: { 
+        startPlaying: { 
             "statement": "You are broke and must get a job. Do you become a fisherman or get a job in a canning factory?",
             "choices": [
                 { 
@@ -104,4 +63,41 @@
     
     /*end*/ 
     };
-}());
+
+    //new code
+    function renderState (next) {
+        let state = myAdventure[next];
+        
+        let tileHtml = '';
+        
+            let tileTemplate = `
+            <div class="content-display">
+                <div class="main-enclose">
+                    <div class="question">
+                        <h2 style="text-align:center">${state["title"]}</h2>
+                        <p>${state["statement"]}</p>
+                        <div class="button-box">
+                            <button class="answer-button center">${state.choices[0].label}</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            `;
+        
+            tileHtml += tileTemplate;   
+
+        document.getElementById('text-tile').innerHTML = tileHtml;  
+    }    
+    
+    console.log('HERE I AM '+(Date.UTC()));
+
+    let start = "theBeginning";
+    renderState("theBeginning");
+
+    function nextState(e) { renderState(e.data["next"]); }
+
+
+
+    //}());
+//    //the event occurred
+  })
