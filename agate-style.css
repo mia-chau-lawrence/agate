@@ -37,10 +37,9 @@ header {
     font-family:arial, sans-serif;
     box-shadow: 0 6px 12px rgba(0,0,0,0.12), 0 6px 12px rgba(0,0,0,0.24);
     transition:0.3s;
-    padding:16px;
+    padding:16px 60px;
     width:100%;
     overflow:auto;
-    font-size:18px;
     border-radius:5px;
     border: 6px solid #248f8f;
     /*border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
@@ -81,14 +80,15 @@ footer {
 
 .content-display > div {
     margin: 20px;
-    font-size: 20px;
     box-shadow: 0 6px 12px rgba(0,0,0,0.12), 0 6px 12px rgba(0,0,0,0.24);
     transition:0.3s;
 }
 
 .question {
     padding:16px;
-    font-size:14px;
+    font-size:16px;
+    overflow: auto;
+    max-height:525px;
 }
 
 .question a {
@@ -122,6 +122,54 @@ footer {
     box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.24); 
     transition:0.4s;    
 }
+
+a.discover {
+    border-bottom:1.5px dotted #248f8f;
+}
+
+a:hover.discover {
+    border-bottom:2px dotted #2eb8b8;
+    transition:0.4s;
+}
+
+/*toolip*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+    font-style:italic;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 150px;
+    background-color: black;
+    color: #fff;
+    font-size:10px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  
 
 @media screen and (max-width:1000px) {
     .one-column {
