@@ -61,6 +61,11 @@ header {
     margin-right:auto;
 }
 
+.img-center:hover {
+    opacity:0.75;
+    transition: opacity 0.3s;
+}
+
 footer {
     background-color:#555;
     padding:20px;
@@ -86,7 +91,7 @@ footer {
 
 .question {
     padding:16px;
-    font-size:16px;
+    font-size:15px;
     overflow: auto;
     max-height:525px;
 }
@@ -98,6 +103,7 @@ footer {
 
 .button-box {
     text-align:center;
+    padding-top:20px;
 }
 
 .answer-button {
@@ -110,7 +116,7 @@ footer {
     padding:10px 14px;
     text-align:center;
     text-decoration:none;
-    font-size:14px;
+    font-size:16px;
     width:60%;
     cursor:pointer;
     margin-top:8px;
