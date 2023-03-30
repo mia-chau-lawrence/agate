@@ -32,11 +32,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "firstDayGoToWork1",
                     },
-                    { 
-                        "id": "firstDayGoToWork1",
-                        "label": "continue",
-                        "moveto": "firstDayGoToWork2",
-                    },
                 ]
             },
     
@@ -50,6 +45,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     <br><br>
                     After dressing, I rush into the kitchen where Zia Cecilia has already arisen and is making a pot of hot coffee. However, I have hardly entered the room when 
                     I hear a knock at the door.
+                    <br><br>
+                    Arising quickly, I go to open it. On the doorstep stands a girl about my age wearing a staunch white apron, black rubber gloves, and a dark hair staunchly kept back in a hair net.
+                    Held close to her chest is another similar outfit.
                 `,
                 "choices": [
                     { 
@@ -57,48 +55,67 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "continue",
                         "moveto": "firstDayGoToWork2",
                     },
+                    
+                ]
+            },
+    
+            firstDayGoToWork2: { 
+                "image":"",
+                "title": "Meeting Carmela",
+                "statement": `
+                    "<span class="tooltip">Bon jornu<span class="tooltiptext">Sicilian for "good morning"</span></span> <span class="tooltip">Signora<span class="tooltiptext">Sicilian for Mrs.</span></span> Costa.
+                    It is nice to see you this morning. And you must be Guilia, I am Carmela Amato, Signora Russo sent me.
+                    <br><br>
+                    Quickly glancing at the cheap nickel and dime clock in the kitchen, Carmela suddenly says, "Here," thrusting the clothes in her hands toward me. "Get changed quick into these if you want time to eat breakfast. It is required that all cannery workers wear the aprons and gloves, otherwise the floor director won't let you inside. I'm sorry these aren't new,
+                    they used to belong to <span class="tooltip">Signora<span class="tooltiptext">Sicilian for Mrs.</span></span> Russo's daughter-in-law before she quit last month to have a baby. Don't worry,
+                    they're clean though. I washed them just last night."   
+                `,
+                "choices": [
                     { 
-                        "id": "firstDayGoToWork1",
+                        "id": "firstDayGoToWork2",
+                        "label": "Continue",
+                        "moveto": "firstDayGoToWork3",
+                    },
+                    
+                ]
+            },
+
+            firstDayGoToWork3: { 
+                "image":"",
+                "title": "Meeting Carmela",
+                "statement": `
+                    "<span class="tooltip">Grazie<span class="tooltiptext">Sicilian for "thank you"</span></span>---" I begin before Carmela interupts.
+                    <br><br>
+                    "Don't thank me, just get dressed. We have less than half an hour to get to the cannery, otherwise both of us will be late and probably lose our jobs."
+                    <br><br>
+                    "Yes, you had probably best hurry up Guillia," Zia Cecilia agrees. "You're already running late. Carmela, would you like to come in for some coffee quickly?"
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDayGoToWork2",
                         "label": "Become Can Man (test)",
                         "moveto": "becomeCanMan",
                     },
                     
                 ]
             },
-    
-                firstDayGoToWork2: { 
-                    "image":"pig.jpg",
-                    "title": "Meeting Carmela",
-                    "statement": `
-                        Arising quickly, I go to open the door. 
-                        ANd then a whole lot of stuff happen.ANd then a whole lot of stuff happen.ANd then a whole lot of stuff happen.
-                    `,
-                    "choices": [
-                        { 
-                            "id": "firstDayGoToWork1",
-                            "label": "Become Can Man (test)",
-                            "moveto": "becomeCanMan",
-                        },
-                        
-                    ]
-            },
+        
             
-            becomeCanMan: { 
-               "image":"the-beginning.jpg",
-                "title": "Cannery Worker",
-                "statement": "While undesirable, the family must eat. The hours and conditions are terrible, do you dare complain?",
-                "choices": [
-                    { 
-                        "label": "Go back to first day 1 (test)",
-                        "moveto": "firstDayGoToWork1",
-                    },
-                    {
-                        "label": "Go back to first day 2 (test)",
-                        "moveto": "firstDayGoToWork2",
-                    },
+            // firstDayGoToWork2: { 
+            //     "image":"",
+            //     "title": "Meeting Carmela",
+            //     "statement": `
                     
-                ]
-            },
+            //     `,
+            //     "choices": [
+            //         { 
+            //             "id": "firstDayGoToWork2",
+            //             "label": "Become Can Man (test)",
+            //             "moveto": "becomeCanMan",
+            //         },
+                    
+            //     ]
+            // },
         
         /*end*/ 
         };
