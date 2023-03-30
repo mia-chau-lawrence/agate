@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     var myAdventure = {
         
         theBeginning: {
-            // "image": "", 
+            "image": "", 
             "title": "Diary Entry #1",
             "statement": `
             <i><span style="float:right; font-size:14px;">August 4, 1929</span>
@@ -36,48 +36,48 @@ document.addEventListener('DOMContentLoaded', (event) => {
         },
 
         firstDayGoToWork1: { 
-            // "image":"coffee.webp",
+            "image":"coffee.webp",
             "title": "Breakfast",
             "statement": `
                 Zia Cecilia was right. It is not even daylight when the shrill, single-toned screaming of the cannery whistles are heard across town.
-                However, after spending two years as a field hand, stooping for hours the hot sun to pick fruit in order to support myself and my "sick" father, 
+                However, after spending two years as a field hand, stooping for hours in the hot sun to pick fruit in order to support myself and my "sick" father, 
                 the opportunity for change is cause enough for excitement. 
                 <br><br>
-                After dressing, I rush into the kitchen where Zia Cecilia has already arisen and is making a pot of hot coffee. However, I have hardly entered the room when 
-                I hear a knock at the door.
+                After dressing, I rush into the kitchen where Zia Cecilia has already arisen and is making a pot of hot coffee. On the table she has set a slice of bread on 
+                tin plate. However, I have hardly entered the room when I hear a knock at the door.
             `,
             "choices": [
                 { 
                     "id": "firstDayGoToWork1",
-                    "label": "continue",
+                    "label": "Next",
                     "moveto": "firstDayGoToWork2",
                 },
                 { 
                     "id": "firstDayGoToWork1",
-                    "label": "continue",
-                    "moveto": "theBeginning",
+                    "label": "Become can man (test)",
+                    "moveto": "becomeCanMan",
                 },
                 
             ]
         },
 
-            firstDayGoToWork2: { 
-                // "image":"coffee.webp",
-                "title": "",
-                "statement": `
-                    Arising quickly, you 
-                `,
-                "choices": [
-                    { 
-                        "label": "continue",
-                        "moveto": "firstDayGoToWork1",
-                    },
-                    
-                ]
+        firstDayGoToWork2: { 
+            "image":"how-to-draw-a-cute-pig.webp",
+            "title": "Meeting Carmela",
+            "statement": `
+                Arising quickly
+            `,
+            "choices": [
+                { 
+                    "label": "Go to can man",
+                    "moveto": "becomeCanMan",
+                },
+                
+            ]
         },
         
         becomeCanMan: { 
-           "image":"",
+            "image":"",
             "title": "Cannery Worker",
             "statement": "While undesirable, the family must eat. The hours and conditions are terrible, do you dare complain?",
             "choices": [
@@ -114,9 +114,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         <p>${state["statement"]}</p>
                     </div>
                     <div class="button-box">`;
-                        for(let i=0; i<state.choices.length; i+=1) {
+                        for(let i=0; i<state.choices.length; i++) {
                             tileTemplate += 
-                            `<button id="${state.choices[i].id}" class="answer-button" ` +
+                            `<button id="${state.choices[i].id}" class="answer-button" ` + 
                             `data-next="${state.choices[i].moveto}">` +
                             `${state.choices[i].label}</button>`;
                         }
@@ -130,13 +130,16 @@ document.addEventListener('DOMContentLoaded', (event) => {
         document.getElementById('text-tile').innerHTML = tileHtml;  
 
         //event handler
-        document.getElementById(state.choices[0].id).onclick = function(e) { 
-            //console.log(e);  
-            renderState(e.target.dataset["next"]); 
-            states.push(state["title"]);
-            console.log(states)
+        for (let i = 0; i < state.choices.length; i++) {
+            document.getElementById(state.choices[i].id).addEventListener('click', function (e) {
+                renderState(e.target.dataset['next']);
+                states.push(state['title']);
+                console.log(states);
+            });
         }
-    }    
+        
+    
+    } //end of renderState function   
     
     console.log('HERE I AM '+(Date.UTC()));
 

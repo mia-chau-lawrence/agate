@@ -87,13 +87,14 @@ footer {
     margin: 20px;
     box-shadow: 0 6px 12px rgba(0,0,0,0.12), 0 6px 12px rgba(0,0,0,0.24);
     transition:0.3s;
+    max-height:95vh;
 }
 
 .question {
     padding:16px;
     font-size:15px;
     overflow: auto;
-    max-height:525px;
+    max-height:70vh;
 }
 
 .question a {
@@ -175,103 +176,16 @@ a:hover.discover {
   .tooltip:hover .tooltiptext {
     visibility: visible;
   }
-  
-
-@media screen and (max-width:1000px) {
-    .one-column {
-        padding:15px 20px;
-    }
-    
-    .profile > div {
-        width:40%;
-    }
-}
-
-@media screen and (max-width:900px) {
-    .lhs-column {
-      width:100%;
-    }
-    .rhs-column {
-     width:100%;
-    }
-    .twin-column, .three-column {
-        width:100%;
-    }
-}
-
-@media screen and (max-width:850px) {
-    .ul.bookfilter{
-        width:100%;
-    }
-}
-
-@media screen and (max-width: 800px) {
-  .about-column {
-      width:50%;
-    }
-  .main-enclose, .side-enclose {
-      margin:30px;
-    }
-  .side-enclose {
-      margin:30px;
-    }  
-  .b-container {
-      padding-top:16px; 
-    }
-   .top-bar {
-      flex-direction:column;
-      position: -webkit-static; /*safari*/
-      position: static;
-   }
-    .top-bar > div {
-      justify-content:center;
-   }
-   .p-column {
-      flex: 100%;
-      max-width:100%;
-   }
-} 
-
-@media screen and (max-width:700px) {
-    img.left {
-        width:100%; 
-        overflow:auto;
-    }
-    /*input[type=text].search-bar, .column-sides, {
-        width:100%;
-    }
-    .column-sides {
-        padding:0px 10px;
-    }*/
-}
-
-@media screen and (max-width: 500px) {
-   .profile > div {
-        width:100%;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .button2 {
-        float:center;
-    }
-    .column-nav, .column-sides, ul.topnav li a, ul.topnav li {
-        width:100%;
-    }
-    .dropdown-content {
-        width:80%;
-    }
-    .search-container {
-        padding:0px 16px;
-    }
-    input[type=text].search-bar {
-        width:100%;
-        margin:16px 0px;
-    }
-}
    
-@media screen and (max-width:300px) {
-    .main-card, .side-card {
-        font-size:14.5px;
+
+  @media screen and (max-width:1000px) {
+    .page-container {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .page-container {
+        padding: 10px;
     }
 }
