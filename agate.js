@@ -44,11 +44,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "caption":"Doggies!",
 
                     },
-                ]
+                ],
             },
     
             firstDayGoToWork1: { 
-                "image":"coffee.webp",
                 "title": "Breakfast",
                 "statement": `
                     Zia Cecilia was right. It is not even daylight when the shrill, single-toned screaming of the cannery whistles are heard across town.
@@ -68,11 +67,18 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "moveto": "firstDayGoToWork2",
                     },
                     
-                ]
+                ],
+                //images
+                "images" : [
+                    {
+                        "img":"coffee.webp",
+                        "caption":"Breakfast",
+
+                    },
+                ],
             },
     
             firstDayGoToWork2: { 
-                "image":"",
                 "title": "Meeting Carmela",
                 "statement": `
                     "<span class="tooltip">Bon jornu<span class="tooltiptext">Sicilian for "good morning"</span></span> <span class="tooltip">Signora<span class="tooltiptext">Sicilian for Mrs.</span></span> Costa.
@@ -89,11 +95,18 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "moveto": "firstDayGoToWork3",
                     },
                     
+                ],
+                //images
+                "images" : [
+                    {
+                        "img":"canneryrow_0.jpg",
+                        "caption":"Map",
+
+                    },
                 ]
             },
 
             firstDayGoToWork3: { 
-                "image":"",
                 "title": "Meeting Carmela",
                 "statement": `
                     "<span class="tooltip">Grazie<span class="tooltiptext">Sicilian for "thank you"</span></span>---" I begin before Carmela interupts.
@@ -145,9 +158,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 <div class="content-display">
                     <div class="main-enclose">
                         <div class="question">
-                            <div class="img-center">
-                                <img src="${state["image"]}" width="100%;">
-                            </div>
                             <h2 style="text-align:center">${state["title"]}</h2>
                             <p>${state["statement"]}</p>
                         
@@ -155,7 +165,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                             for(let i=0; i<state.images.length; i+=1) {
                                 tileTemplate += 
                                 `<div class="polaroid-container">
-                                    <img src="${state.images[i].img}" alt="not available" style="width:100%">
+                                    <img src="${state.images[i].img}" alt="Image not available" style="width:100%">
                                     <div class="polaroid-text">
                                         <p>${state.images[i].caption}</p>
                                     </div>

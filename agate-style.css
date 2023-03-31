@@ -106,7 +106,6 @@ footer {
 .button-box {
     text-align:center;
     padding-top:20px;
-    background-color:red;
 }
 
 .answer-button {
@@ -185,17 +184,17 @@ a:hover.discover {
     padding:10px;
     width: 45%;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-    margin:15px;
+    margin:40px 15px 10px;
 }
 
-div.polaroid-container:first-child {
+div.polaroid-container:nth-child(even) {
     float:left;
     rotate:-5deg;
-    background-color:lightpink;
+    background-color: lightpink;
     z-index:-1;
 }
 
-div.polaroid-container:nth-child(2) {
+div.polaroid-container:nth-child(odd) {
     float:right;
     rotate: 8deg;
     background-color:lightblue;
