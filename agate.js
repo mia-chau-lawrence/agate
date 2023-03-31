@@ -151,20 +151,19 @@ document.addEventListener('DOMContentLoaded', (event) => {
                             <h2 style="text-align:center">${state["title"]}</h2>
                             <p>${state["statement"]}</p>
                         
-                            <div class="polaroid-container">
-                                <img src="${state.images[0].img}" alt="not available" style="width:100%">
-                                <div class="polaroid-text">
-                                    <p>${state.images[0].caption}</p>
-                                </div>
-                            </div>
-                            <div class="polaroid-container">
-                                <img src="${state.images[1].img}" alt="not available" style="width:100%">
-                                <div class="polaroid-text">
-                                    <p>${state.images[1].caption}</p>
-                                </div>
-                            </div>
-                        
+                            `;
+                            for(let i=0; i<state.images.length; i+=1) {
+                                tileTemplate += 
+                                `<div class="polaroid-container">
+                                    <img src="${state.images[i].img}" alt="not available" style="width:100%">
+                                    <div class="polaroid-text">
+                                        <p>${state.images[i].caption}</p>
+                                    </div>
+                                </div>`
+                            }
+                            tileTemplate += `
                         </div>
+                        
                         <div class="button-box">`;
                             for(let i=0; i<state.choices.length; i+=1) {
                                 tileTemplate += 
@@ -172,7 +171,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
                                 `data-next="${state.choices[i].moveto}">${state.choices[i].label}</button>`
 
                             }
-                        tileTemplate += `</div>
+                        tileTemplate += `
+                        </div>
                     </div>
                 </div> 
                 `;
