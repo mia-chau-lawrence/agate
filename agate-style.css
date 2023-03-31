@@ -30,7 +30,7 @@ header {
     display:flex;
     width:100%;
     flex-flow:row wrap;
-    padding: 65px 210px;
+    padding: 50px 200px;
 }
 
 .main-enclose {
@@ -55,7 +55,7 @@ header {
     color:#2eb8b8;
 }
 
-.img-center {
+/* .img-center {
     display:block;
     margin-left:auto;
     margin-right:auto;
@@ -64,7 +64,7 @@ header {
 .img-center:hover {
     opacity:0.75;
     transition: opacity 0.3s;
-}
+} */
 
 footer {
     background-color:#555;
@@ -75,6 +75,38 @@ footer {
 
 /* */
 
+/*polaroid*/
+.polaroid-container {
+    display:flex;
+    flex-wrap:wrap; 
+    flex-direction: row;
+    padding:10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    margin: 50px 15px 40px;;
+}
+
+.polaroid-container:nth-child(even) {
+    rotate:-8deg;
+    background-color: lightblue;
+    /* z-index:-1; */
+    width: 30%;
+}
+
+div.polaroid-container:nth-child(odd) {
+    float:right; 
+    rotate: 8deg;
+    background-color:lightpink;
+    /* z-index:; */
+    width: 55%;
+}
+
+div.polaroid-text {
+    text-align: center;
+    padding: 5px 10px;
+    font-family: 'Brush Script MT', cursive;
+} 
+
+/*tiles */
 .content-display {
     line-height: 1.6;
     display:flex;
@@ -84,14 +116,15 @@ footer {
 }
 
 .content-display > div {
-    margin: 20px;
+    /* margin: 20px; */
     box-shadow: 0 6px 12px rgba(0,0,0,0.12), 0 6px 12px rgba(0,0,0,0.24);
     transition:0.3s;
     max-height:95vh;
 }
 
+/*HEREEEEEEEEEEEEEEEEEEE*/
 .question {
-    padding:16px;
+    padding:16px 16px 70px;
     font-size:15px;
     overflow: auto;
     max-height:70vh;
@@ -105,7 +138,7 @@ footer {
 
 .button-box {
     text-align:center;
-    padding-top:20px;
+    padding-top:15px;
 }
 
 .answer-button {
@@ -178,35 +211,6 @@ a:hover.discover {
     visibility: visible;
   }
    
-
- /*polaroid*/
- div.polaroid-container {
-    padding:10px;
-    width: 45%;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-    margin:40px 15px 10px;
-}
-
-div.polaroid-container:nth-child(even) {
-    float:left;
-    rotate:-5deg;
-    background-color: lightpink;
-    z-index:-1;
-}
-
-div.polaroid-container:nth-child(odd) {
-    float:right;
-    rotate: 8deg;
-    background-color:lightblue;
-    z-index:1;
-}
-
-div.polaroid-text {
-    text-align: center;
-    padding: 5px 10px;
-    font-family: 'Brush Script MT', cursive;
-} 
-
   @media screen and (max-width:1000px) {
     .page-container {
         padding: 30px;

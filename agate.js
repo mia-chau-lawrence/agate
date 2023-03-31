@@ -165,13 +165,16 @@ document.addEventListener('DOMContentLoaded', (event) => {
                             for(let i=0; i<state.images.length; i+=1) {
                                 tileTemplate += 
                                 `<div class="polaroid-container">
-                                    <img src="${state.images[i].img}" alt="Image not available" style="width:100%">
-                                    <div class="polaroid-text">
-                                        <p>${state.images[i].caption}</p>
+                                    <div>
+                                        <img src="${state.images[i].img}" alt="Image not available" style="width:100%">
+                                        <div class="polaroid-text">
+                                            <p>${state.images[i].caption}</p>
+                                        </div>
                                     </div>
                                 </div>`
                             }
                             tileTemplate += `
+                            
                         </div>
                         
                         <div class="button-box">`;
