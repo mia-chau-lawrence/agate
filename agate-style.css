@@ -78,28 +78,37 @@ footer {
 /*polaroid*/
 .polaroid-container {
     display:flex;
-    flex-wrap:wrap; 
-    flex-direction: row;
-    padding:10px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-    margin: 50px 15px 40px;;
+    /* position: relative; */
 }
 
-.polaroid-container:nth-child(odd) {
+.polaroid-container > div {
+    padding:10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    margin:40px 20px;
+}
+
+.polaroid-container:hover > div {
+    opacity:0.75;
+    transition:0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.polaroid-container:nth-child(odd) > div {
+    float:left;
     rotate:-8deg;
-    background-color: #ecf9f2;
-    /* z-index:-1; */
+    background-color: lightpink; /*#ecf9f2*/
+    /* z-index:-1;  */
     width: 30%;
 }
 
-div.polaroid-container:nth-child(even) {
+.polaroid-container:nth-child(even) > div {
     float:right;  
-    rotate: 8deg;
-    background-color:#f2e6ff;
-    /* z-index:; */
-    width: 55%;
+    rotate: 6deg;
+    background-color:lightblue; /*#f2e6ff*/ 
+    z-index:1;
+    width: 35%;
 }
-
+ 
 div.polaroid-text {
     text-align: center;
     padding: 5px 10px;

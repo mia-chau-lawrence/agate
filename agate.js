@@ -38,6 +38,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "img":"the-beginning.jpg",
                         "caption":"The wharfs",
                     },
+                    {
+                        "img":"coffee.webp",
+                        "caption":"Breakfast",
+                    },
                 ],
             },
     
