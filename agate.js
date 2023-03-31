@@ -33,18 +33,18 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     },
                 ],
                 
-                // "images" : [
-                //     {
-                //         "img":"",
-                //         "caption":"",
+                "images" : [
+                    {
+                        "img":"pig.jpg",
+                        "caption":"Piggy",
 
-                //     },
-                //     {
-                //         "img":"",
-                //         "caption":"",
+                    },
+                    {
+                        "img":"dog.webp",
+                        "caption":"Doggies!",
 
-                //     },
-                // ]
+                    },
+                ]
             },
     
             firstDayGoToWork1: { 
@@ -150,17 +150,17 @@ document.addEventListener('DOMContentLoaded', (event) => {
                             </div>
                             <h2 style="text-align:center">${state["title"]}</h2>
                             <p>${state["statement"]}</p>
-                            
+                        
                             <div class="polaroid-container">
-                                <img src="pig.jpg" alt="not available" style="width:100%">
+                                <img src="${state.images[0].img}" alt="not available" style="width:100%">
                                 <div class="polaroid-text">
-                                    <p>Piggy</p>
+                                    <p>${state.images[0].caption}</p>
                                 </div>
                             </div>
                             <div class="polaroid-container">
-                                <img src="dog.webp" alt="not available" style="width:100%">
+                                <img src="${state.images[1].img}" alt="not available" style="width:100%">
                                 <div class="polaroid-text">
-                                    <p>Doggies!</p>
+                                    <p>${state.images[1].caption}</p>
                                 </div>
                             </div>
                         

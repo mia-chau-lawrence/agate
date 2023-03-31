@@ -189,15 +189,15 @@ a:hover.discover {
 
 div.polaroid-container:first-child {
     float:left;
-    rotate:-8deg;
-    background-color:red;
+    rotate:-5deg;
+    background-color:lightpink;
     z-index:-1;
 }
 
 div.polaroid-container:nth-child(2) {
     float:right;
-    rotate:8deg;
-    background-color:blue;
+    rotate: 8deg;
+    background-color:lightblue;
     z-index:1;
 }
 
