@@ -35,14 +35,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 
                 "images" : [
                     {
-                        "img":"pig.jpg",
-                        "caption":"Piggy",
-
-                    },
-                    {
-                        "img":"dog.webp",
-                        "caption":"Doggies!",
-
+                        "img":"the-beginning.jpg",
+                        "caption":"The wharfs",
                     },
                 ],
             },
