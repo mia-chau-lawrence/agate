@@ -3,8 +3,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     
         var myAdventure = {
             
-            theBeginning: {
-                "image": "", 
+            theBeginning: { 
                 "title": "Diary Entry #1",
                 "statement": `
                 <i><span style="float:right; font-size:14px;">August 4, 1929</span>
@@ -32,7 +31,20 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "firstDayGoToWork1",
                     },
-                ]
+                ],
+                
+                // "images" : [
+                //     {
+                //         "img":"",
+                //         "caption":"",
+
+                //     },
+                //     {
+                //         "img":"",
+                //         "caption":"",
+
+                //     },
+                // ]
             },
     
             firstDayGoToWork1: { 
@@ -64,7 +76,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 "title": "Meeting Carmela",
                 "statement": `
                     "<span class="tooltip">Bon jornu<span class="tooltiptext">Sicilian for "good morning"</span></span> <span class="tooltip">Signora<span class="tooltiptext">Sicilian for Mrs.</span></span> Costa.
-                    It is nice to see you this morning. And you must be Guilia, I am Carmela Amato, Signora Russo sent me.
+                    It is nice to see you this morning," she says smiling politely to my aunt who has come to the door. Turning to me she says, "And you must be Guilia, I am Carmela Amato, Signora Russo sent me. I'm sure she told you.
                     <br><br>
                     Quickly glancing at the cheap nickel and dime clock in the kitchen, Carmela suddenly says, "Here," thrusting the clothes in her hands toward me. "Get changed quick into these if you want time to eat breakfast. It is required that all cannery workers wear the aprons and gloves, otherwise the floor director won't let you inside. I'm sorry these aren't new,
                     they used to belong to <span class="tooltip">Signora<span class="tooltiptext">Sicilian for Mrs.</span></span> Russo's daughter-in-law before she quit last month to have a baby. Don't worry,
@@ -89,12 +101,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     "Don't thank me, just get dressed. We have less than half an hour to get to the cannery, otherwise both of us will be late and probably lose our jobs."
                     <br><br>
                     "Yes, you had probably best hurry up Guillia," Zia Cecilia agrees. "You're already running late. Carmela, would you like to come in for some coffee quickly?"
+                    <br><br>
+                    "
                 `,
                 "choices": [
                     { 
-                        "id": "firstDayGoToWork2",
-                        "label": "Become Can Man (test)",
-                        "moveto": "becomeCanMan",
+                        "id": "firstDayGoToWork3",
+                        "label": "Continue",
+                        "moveto": "firstDayGoToWork4",
                     },
                     
                 ]
@@ -136,6 +150,20 @@ document.addEventListener('DOMContentLoaded', (event) => {
                             </div>
                             <h2 style="text-align:center">${state["title"]}</h2>
                             <p>${state["statement"]}</p>
+                            
+                            <div class="polaroid-container">
+                                <img src="pig.jpg" alt="not available" style="width:100%">
+                                <div class="polaroid-text">
+                                    <p>Piggy</p>
+                                </div>
+                            </div>
+                            <div class="polaroid-container">
+                                <img src="dog.webp" alt="not available" style="width:100%">
+                                <div class="polaroid-text">
+                                    <p>Doggies!</p>
+                                </div>
+                            </div>
+                        
                         </div>
                         <div class="button-box">`;
                             for(let i=0; i<state.choices.length; i+=1) {

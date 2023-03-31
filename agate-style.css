@@ -179,6 +179,34 @@ a:hover.discover {
   }
    
 
+ /*polaroid*/
+ div.polaroid-container {
+    padding:10px;
+    width: 45%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    margin:15px;
+}
+
+div.polaroid-container:first-child {
+    float:left;
+    rotate:-8deg;
+    background-color:red;
+    z-index:-1;
+}
+
+div.polaroid-container:nth-child(2) {
+    float:right;
+    rotate:8deg;
+    background-color:blue;
+    z-index:1;
+}
+
+div.polaroid-text {
+    text-align: center;
+    padding: 5px 10px;
+    font-family: 'Brush Script MT', cursive;
+} 
+
   @media screen and (max-width:1000px) {
     .page-container {
         padding: 30px;
