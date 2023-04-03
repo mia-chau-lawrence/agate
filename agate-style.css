@@ -79,6 +79,8 @@ footer {
 .polaroid-container {
     display: flex;
     position: relative; /* add position relative to make child elements position absolute */
+    flex-wrap:wrap;
+    background-color:red;
   }
   
   .polaroid-container > div {
@@ -89,22 +91,27 @@ footer {
     font-size:18px;
   }
   
-  .polaroid-container:nth-child(odd) > div {
+.polaroid-container:nth-of-type(odd) > div{
     left: 0; 
-    z-index: 1; 
-    rotate: -8deg;
-    background-color:  #f6c9bb;
+    rotate: -7deg;
+    background-color:#dfb9be;
+    /* background-image: linear-gradient(to right, #ebcec6 , #f2ded9); */
     width: 40%;
   }
   
-  .polaroid-container:nth-child(even) > div {
+.polaroid-container:nth-of-type(even) > div {
     right: 0; 
-    rotate: 6deg;
-    background-color: #dce6ef;
+    rotate: 5deg;
+    background-color: #d6e5cd;
+    /* background-image: linear-gradient(to bottom right, #ebcec6 , #f2ded9); */
     width: 45%;
-  }
-  
- 
+}
+
+.polaroid-container:hover > div {
+    transition:0.5s;
+    opacity:0.75;
+}
+
 div.polaroid-text {
     text-align: center;
     padding: 0px 8px;
@@ -132,8 +139,9 @@ div.polaroid-text {
     padding:16px 16px 70px;
     font-size:15px;
     overflow: auto;
-    max-height:70vh;
+    max-height:65vh;
     overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .question a {
@@ -146,7 +154,7 @@ div.polaroid-text {
     padding-top:15px;
 }
 
-.answer-button {
+button.answer-button {
     display:inline-block;
     font-family:arial, sans-serif;
     border-radius:10px;
@@ -163,7 +171,7 @@ div.polaroid-text {
     box-shadow: 0 1px 2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
-.answer-button:hover {
+button.answer-button:hover {
     background-color:#2eb8b8;
     box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.24); 
     transition:0.4s;    
@@ -224,6 +232,47 @@ a:hover.discover {
 
 @media screen and (max-width:600px) {
     .page-container {
-        padding: 10px;
+        padding: 15px 10px;
+    }
+
+    .main-enclose {
+        padding:10px;
+    }
+
+    .polaroid-container > div {
+        padding: 5px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+        margin: 40px 20px;
+        position: absolute; 
+        font-size:18px;
+      }
+      
+    .polaroid-container:nth-of-type(odd) > div{
+        left: 0; 
+        z-index: 0; 
+        rotate: -7deg;
+        background-color:#dfb9be;
+        /* background-image: linear-gradient(to right, #ebcec6 , #f2ded9); */
+        width: 40%;
+      }
+      
+    .polaroid-container:nth-of-type(even) > div {
+        right: 0; 
+        rotate: 5deg;
+        background-color: #c8dcbc;
+        /* background-image: linear-gradient(to bottom right, #ebcec6 , #f2ded9); */
+        width: 45%;
+    }
+    
+    div.polaroid-text {
+        text-align: center;
+        padding: 0px;
+        font-family: 'Brush Script MT', cursive;
+        font-size:12px;
+    } 
+    button.answer-button {
+        font-size:12px;
+        width:75%;
     }
 }
+
