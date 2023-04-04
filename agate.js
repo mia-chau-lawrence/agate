@@ -37,13 +37,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 
                 "images" : [ 
                     {
-                        "img":"postcard.jpg",
-                        "caption":"A postcard I found",
-                    },
-                    {
                         "img":"postcard2.jpeg",
                         "caption":"Postcard of Pacific Avenue",
                     },
+                    {
+                        "img":"postcard.jpg",
+                        "caption":"A postcard I found",
+                    },
+                    
                     // {
                     //     "img":"horses-hauling-lumber.webp",
                     //     "caption":"Lumber wagon on Ocean View Ave",
@@ -79,8 +80,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 ],
                 "images" : [
                     {
-                        "img":"zia-cecilia.jpg",
-                        "caption":"Zia Cecilia",
+                        "img":"zia-cecilia3.jpg",
+                        "caption":"Zia Cecilia & Angelo (child)",
 
                     },
                     {
@@ -92,7 +93,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             },
     
             firstDayGoToWork2: { 
-                "title": "Meeting Carmela",
+                "title": "",
                 "statement": `
                     "<span class="tooltip">Bon jornu<span class="tooltiptext">Sicilian for "good morning"</span></span> <span class="tooltip">Signora<span class="tooltiptext">Sicilian for Mrs.</span></span> Costa.
                     It is nice to see you this morning," she says smiling politely to my aunt who has come to the door. 
@@ -118,7 +119,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 "images" : [
                     {
                         "img":"guilia1.jpg",
-                        "caption":"Me (taken in Salinas a year ago)",
+                        "caption":"Me<br>Salinas, 1927",
 
                     },
                     {
@@ -130,7 +131,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             },
 
             firstDayGoToWork3: { 
-                "title": "Meeting Carmela",
+                "title": "",
                 "statement": `
                     "<span class="tooltip">Grazie<span class="tooltiptext">Sicilian for "thank you"</span></span>---" I begin before Carmela interupts.
                     <br><br>
@@ -169,7 +170,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             },
 
             firstDayGoToWork4: { 
-                "title": "Go to Work",
+                "title": "Going to Work",
                 "statement": `
                 After putting on the apron and hair net, I join Carmela who is already at dining table, quickly finishing my slice of bread and coffee before Carmela practically drags me out the door, insisting we are going to be late.
                 <br><br>
@@ -206,7 +207,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             },
         
             firstDayGoToWork5: { 
-                "title": "Arriving to Work",
+                "title": "Arriving at San Carlos",
                 "statement": `
                     However, as we enter the cannery, the jovial moods of the girls disappear as they pull on their gloves and disperse into towards their <a href="" class="discover">different stations</a>.
                     <br><br> 
@@ -273,18 +274,18 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
                     },
                     {
-                        "img":"signora-santoro.jpg",
-                        "caption":"Signora Santoro <br> (when she was young)",
+                        "img":"sardines2.jpg",
+                        "caption":"Sardines",
 
                     },
                 ],
             },
-
+            //work hard or talk to other girls
             workTalkDecision: { 
                 "title": "Two hours later. . . ",
                 "statement": `
-                    It does not take long for me to become sick of cleaning the fish. Literally. The overwhelming smell of it fish the pure 
-                    monotomy of slicing and gutting the fish makes me sick. 
+                    It does not take long for me to become sick of cleaning the fish. Literally. The overwhelming smell of fish and pure 
+                    monotomy of slicing and gutting them makes me sick. 
                     <br><br> 
                     I long to talk to some of the girls again, but turning to Carmela, she is clearly immersed in her task, fingers deftly cutting one fish after another.
                     A quick glance at the other girls shows the rest of them to be just as absorbed in their mind-numbing tasks. Other than the roar of machinery, the barking orders by Signora
@@ -319,6 +320,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     },
                 ],
             },
+            // work hard in cannery
             firstDayWorkHard1: { 
                 "title": "Concentrate on Work",
                 "statement": `
@@ -389,9 +391,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     However, the other Sicilian girls pretend to pay them no mind, putting up a brilliant pretense of being in a good mood and energetically 
                     waving one another over as they exit the cannery.  
                     <br><br>
-                    Grouped together so solidly and voices raised high in the Sicilian language, we Sicilian girls appear to be the domineering group of workers at the cannery. 
-                    <br><br>
-                    Heads held high, many of the girls, appear to gain confidence from this fact, lending many of them the confidence to boldy respond to the hecklers making fun of our smell, "You know what you smell? You smell money!"
+                    Grouped together so solidly and voices raised high in the Sicilian language, 
+                    we Sicilian girls appear to be the domineering group of workers at the cannery. 
                 `,
                 "choices": [
                     { 
@@ -420,25 +421,22 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 ],
             },
             firstDayWorkHard4: { 
-                "title": "Sicilian Exclusivity",
+                "title": "",
                 "statement": `
                     However, it is clear that this group is Sicilans-only. As the rest of the cannery workers file past us, all of girls
                     maintain a cool demeanor, remaining distant even as a group of Spanish girls cheerfully wave goodbye. 
                     <br><br>
-                    Vita, Carmela's cousin, even says (in Sicilian), "Ugh, those Spanish girls are so annoying. Always trying to talk to us so we'll join 
+                    Vita, Carmela's cousin, even goes so far as to say (in Sicilian), "Ugh, those Spanish girls are so annoying. Always trying to talk to us so we'll join 
                     that silly union of theirs."
                     <br><br>
-                    I am shocked by Vita's rudeness, but what especially strikes me is the exclusivity of us Sicilian girls. When living with with Papa in Salinas, everyone spoke and interacted with one another. 
-                    When working in the fields for hours on end every day, everyone spoke to one another in their broken English, but here it seems we only scorn and ignore those different from us.
-                    <br><br>
-                    I want to speak back to Vita, but not only did I not understand what she said about "unions," but it is clear that interracial relationships do not exist here in Monterey.
-                    Or if they do, Sicilians don't participate in them.
+                    I am shocked by Vita's rudeness and I want to talk back, but not only did I not understand Vita's mentions of "unions," 
+                    the girls' demeanor has made it clear that interracial relationships do not exist here in Monterey. Or if they do, Sicilians don't participate in them.
                     `,
                 "choices": [
                     { 
                         "id": "firstDayWorkHard4",
                         "label": "Continue",
-                        "moveto": "firstDayQuietAskSpanish",
+                        "moveto": "decisionQuietAskSpanish",
                     },
                     { 
                         "id": "firstDayWorkHard4",
@@ -449,19 +447,20 @@ document.addEventListener('DOMContentLoaded', (event) => {
             ],
                 "images" : [
                     {
-                        "img":"sicilian-girls.jpg",
-                        "caption":"A group of us in our Sunday best",
+                        "img":"chinese-cannery-row.jpeg",
+                        "caption":"Chinese neighborhood",
 
                     },
                     {
-                        "img":"postcard3.jpeg",
-                        "caption":"Another postcard of Monterey",
+                        "img":"fishermans-wharf2.jpg",
+                        "caption":"Fisherman's Wharf",
 
                     },
                 ],
             },
-            firstDayQuietAskSpanish: { 
-                "title": "At Home",
+            //decision
+            decisionQuietAskSpanish: { 
+                "title": "Dinnertime",
                 "statement": `
                     After waving goodbye to Carmela, I tiredly trudge inside the house to help Zia Cecilia cook dinner and tend the children. 
                     <br><br>
@@ -469,11 +468,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     so eager to take me in. With eight children and another on the way, it must be impossible to maintain a household without external help and Zio away 
                     fishing for most of the year. 
                     <br><br>
-                    However, when we are finally sitting down at the table to eat, I cannot help but remember how Vita scorned the Spanish girls at work today.
+                    However, although I know I am supposed to be good since I am living on the generosity of relatives, as we sit down to eat, I cannot help but remember how Vita scorned the Spanish girls at work today.
                     <br><br>
-                    I want to ask Zia Cecilia why we Sicilians keep to ourselves and what a union is, but I know it would be a impolite and perhaps scandalous to do so. At the very least, it
-                    would be spread throughout Zia Cecilia's social circles if I were to ask.
-
+                    I want to ask Zia Cecilia what a union is and why we Sicilians keep to ourselves, but as her guest, I know it would be an affront to her hospitality and perhaps downright rude to
+                    question the community's cultural decisions. 
                 `,
                 "choices": [
                     { 
@@ -484,9 +482,40 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     { 
                         "id": "firstDayQuietAskSpanish",
                         "label": "Keep Quiet",
-                        "moveto": "firstDayQuiet",
+                        "moveto": "firstDayQuiet1",
                     },
                     
+            ],
+                "images" : [
+                    {
+                        "img":"zia-cecilia2.jpg",
+                        "caption":"Zio Ignazio & Zia Cecilia with Angelo",
+
+                    },
+                    {
+                        "img":"fishermans-wharf.jpg",
+                        "caption":"Fishing shacks",
+
+                    },
+                    
+                ],
+            },
+            //don't ask about spanish girls
+            firstDayQuiet1: { 
+                "title": "Keeping Quiet",
+                "statement": `
+                    Biting my lip, I keep my mouth shut, knowing that I cannot afford to afford to affront my aunt so early into my stay.
+                    <br><br>
+                    The other girls made it clear we do not associate with non-Sicilian people and Zia Cecilia would likely be insulted if 
+                    I began expressing curiosity towards the other ethnic clans.
+
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDayQuiet1",
+                        "label": "Continue",
+                        "moveto": "firstDayQuiet2",
+                    },    
             ],
                 "images" : [
                     {
@@ -495,30 +524,524 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
                     },
                     {
-                        "img":"zia-cecilia2.jpg",
-                        "caption":"An old portrait of Zio Ignazio and Zia Cecilia with one of their children",
+                        "img":"postcard3.jpeg",
+                        "caption":"Postcard of Monterey",
 
                     },
                 ],
             },
-            // firstDayWorkHard3: { 
-            //     "title": "Walking Home",
-            //     "statement": `
+            firstDayQuiet2: { 
+                "title": "Dinner Conversation",
+                "statement": `
+                    "You would not believe what Signora Russo told me today, <span class="tooltip">nipote<span class="tooltiptext">Sicilian for niece<br>Pronounced "nee-poh-tay".</span></span>," begins Zia Cecilia as she spoonfeeds one of her children.
+                    <br><br>
+                    "Today, at the Rosary Club, Signora Messina began talking about how her husband wants her to join the <a href="" class="discover">AFL</a>--- that silly union all the men are talking about these days.
+                    Apparently he says all the Spanish women support their husbands in the <a href="" class="discover">CIO</a> these days and told
+                    Signora Messina it makes him and the other Sicilian men look bad! Can believe it?! The audacity of men these days!"
+
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDayQuiet2",
+                        "label": "Continue",
+                        "moveto": "firstDayQuiet3",
+                    },
+                    { 
+                        "id": "firstDayQuiet2",
+                        "label": "Back",
+                        "moveto": "firstDayQuiet1",
+                    },
                     
+            ],
+                "images" : [
+                    {
+                        "img":"afl.jpg",
+                        "caption":"AFL",
+
+                    },
+                    {
+                        "img":"afl2.jpeg",
+                        "caption":"AFL flyer",
+
+                    },
+                ],
+            },
+            firstDayQuiet3: { 
+                "title": "",
+                "statement": `
+                    "And then Signora Russo chimed in and do you know she told us? She said her sister-in-laws nephew went to one of those meetings and told her he saw Spanish girls actually <i>speak</i>! 
+                    <br><br>
+                    "Instead of staying home with their families like good girls, they're publicly speaking in front of a group of men who don't care about a thing besides a glimpse down their shirts when they lean over! 
+                    <br><br>
+                    "It was all so ridiculous that I couldn't help but say to the ladies---" Zia Cecilia says, lowering her voice and darting her eyes towards the children to ensure they aren't paying attention.
+                    "I believe some of these girls must be <span class="tooltip">puttanas<span class="tooltiptext">Sicilian for prostitute. <br> Pronounced "poot-tah-nahs"</span></span>. After all, why else 
+                    would any woman do such a crazy thing?"
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDayQuiet3",
+                        "label": "Continue",
+                        "moveto": "firstDayQuiet4",
+                    },
+                    { 
+                        "id": "firstDayQuiet3",
+                        "label": "Back",
+                        "moveto": "firstDayQuiet2",
+                    },
+                    
+            ],
+                "images" : [
+                    {
+                        "img":"family3.jpg",
+                        "caption":"Neighborhood family",
+
+                    },  
+                    {
+                        "img":"afl3.jpeg",
+                        "caption":"AFL badge",
+
+                    },  
+                ],
+            },
+            firstDayQuiet4: { 
+                "title": "",
+                "statement": `
+                    Frowning, I am about to interupt when Zia Cecilia fixes me with a sharp eye, saying, "Remember that, <i>nipote</i>. Those girls are all <i>puttanas</i>, no-good people that you don't to associate with.
+                    It's why we Sicilians stick together and don't associate with these Americanized girls who think they're entitled to everything. 
+                    <br><br>
+                    "In America, these union girls are just plain lazy. They want to work less hours, they want higher pay, they even want the companies to give them time 
+                    off to have children! Can you believe this?"
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDayQuiet4",
+                        "label": "Continue",
+                        "moveto": "firstDayQuiet5",
+                    },
+                    { 
+                        "id": "firstDayQuiet4",
+                        "label": "Back",
+                        "moveto": "firstDayQuiet3",
+                    },
+                    
+            ],
+                "images" : [
+                    {
+                        "img":"envelope.jpeg",
+                        "caption":"Envelope",
+
+                    },
+                    {
+                        "img":"postcard4.jpeg",
+                        "caption":"Monterey postcard",
+
+                    },
+                ],
+            },
+            firstDayQuiet5: { 
+                "title": "",
+                "statement": `
+                    "In the old country we would have thanked God fasting to have the opportunity to make extra money for our families like you. But what do you young people do? You sniff!
+                    <br><br>
+                    "This country spoils its people, that's what. Do ever wonder why it is us Sicilians who own the property, the boats, the canneries? It is because we work hard and keep our head down.
+                    We don't complain, we don't get into trouble, but we support and help one another--- and THAT is what brings you success, my dear."
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDayQuiet5",
+                        "label": "Continue",
+                        "moveto": "firstDayGoToBed",
+                    },
+                    { 
+                        "id": "firstDayQuiet5",
+                        "label": "Back",
+                        "moveto": "firstDayQuiet4",
+                    },
+                    
+            ],
+                "images" : [
+                    {
+                        "img":"family.jpeg",
+                        "caption":"Family portrait<br> Sicily, 1914",
+
+                    },
+                    {
+                        "img":"family2.jpg",
+                        "caption":"Neighborhood familes",
+
+                    },
+                ],
+            },
+            //ask zia about spanish girls
+            firstDayAskSpanish1: { 
+                "title": "Ask Zia Cecilia",
+                "statement": `
+                    Gathering my courage, I ask, "Zia . . . Why do we ignore the other girls?"
+                    <br><br>
+                    "What do you mean, <span class="tooltip">nipote<span class="tooltiptext">Sicilian for niece<br>Pronounced "nee-poh-tay".</span></span>?" she says absentmindedly, spoonfeeding Angleo
+                    some legumes.
+                    <br><br>
+                    "I mean what I say. I don't mean to criticize, but it simply appeared that many of the girls were ignoring  . . . well . . . everybody else. Vita Greco even 
+                    went so far as to insult one of the Spanish girls for being in a union."
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDayAskSpanish1",
+                        "label": "Continue",
+                        "moveto": "firstDayAskSpanish2",
+                    },
+            ],
+                "images" : [
+                    {
+                        "img":"pasta-dinner.jpeg",
+                        "caption":"Dinner",
+
+                    },
+                    {
+                        "img":"envelope.jpeg",
+                        "caption":"Postcard envelope",
+
+                    },
+                ],
+            },
+            firstDayAskSpanish2: { 
+                "title": "",
+                "statement": `
+                "Oh, well that's because they're Spanish girls. They're always parading themselves around like <span class="tooltip">puttanas<span class="tooltiptext">Sicilian for prostitute. <br> Pronounced "poot-tah-nahs"</span></span>.
+                <br><br>
+                "Really, it's shameful the way they act. All of those non-Sicilian girls, actually. They only join those silly union meetings because they want to get close to our men. After spending several hours shouting about all that nonsense of 'fair labor practices' and whatnot,
+                they tend to become very vulnerable."
+                <br><br>
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDayAskSpanish2",
+                        "label": "Continue",
+                        "moveto": "firstDayAskSpanish3",
+                    },
+                    { 
+                        "id": "firstDayAskSpanish2",
+                        "label": "Back",
+                        "moveto": "firstDayAskSpanish1",
+                    },
+                    
+            ],
+                "images" : [
+                    {
+                        "img":"afl.jpg",
+                        "caption":"AFL Union",
+
+                    },
+                    {
+                        "img":"postcard4.jpeg",
+                        "caption":"Monterey postcard",
+
+                    },
+                ],
+            },
+            firstDayAskSpanish3: { 
+                "title": "",
+                "statement": `
+                    "Anyhow, I imagine Vita spoke like that because of what happened with her brother. It is understandable that Greco's the are still bitter about that.
+                    <br><br>
+                    "Do you know, one of those Spanish girls tried to ensnare the poor just last year? A Spanish-Sicilian marriage! Can you imagine that?
+                    Just think about what their children would look like . . . " Zia said with a shudder. "Ugh." 
+                    <br><br>
+                    "Thankfully, the family managed to talk him out of that. After all, if it had gone through they would have had to disown him, even though he is the family's only son.
+                    <br><br>
+                    "Of course, the girl made a whole scene of it. Crying in the streets and begging him not to leave her. <span class="tooltip">Comu t'imbarazzant<span class="tooltiptext">"How embarassing!"<br>Pronounced "KOH-moo tee-mbah-rah-TZAHN-tee"</span></span>!
+                    I felt just awful for his poor mother!"
+
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDayAskSpanish3",
+                        "label": "Continue",
+                        "moveto": "firstDayGoToBed",
+                    },
+                    { 
+                        "id": "firstDayAskSpanish3",
+                        "label": "Back",
+                        "moveto": "firstDayAskSpanish2",
+                    },
+                    
+            ],
+                "images" : [
+                    {
+                        "img":"family2.jpg",
+                        "caption":"Greco family",
+
+                    },
+                    {
+                        "img":"family.jpeg",
+                        "caption":"Costa Family",
+
+                    },
+                ],
+            },
+            firstDayGoToBed: { 
+                "title": "Finish Conversation",
+                "statement": `
+                    Fixing me with another stare, Zia pauses a moment before finishing, "I hope this will be a lesson to you, Guilia.
+                    I do not say these things because I mean, but because they are true and I do not want to see you going down the wrong path."
+                    <br><br>
+                    "Now, let's hear no more talk of these <i>other</i> girls and help clean up dinner," says Zia Cecilia, rising from the table, little Angelo on her hip.
+                    <br><br>
+                    "Rosa, Mary, give Guilia a hand. I will put the children to bed. Goodnight, you three."
+                    
+                `,
+                //figure out where to go next
+                "choices": [
+                    { 
+                        "id": "firstDayGoToBed",
+                        "label": "Continue",
+                        "moveto": "firstDayAskSpanish3",
+                    },
+                    // { 
+                    //     "id": "firstDayGoToBed",
+                    //     "label": "Back",
+                    //     "moveto": "firstDayAskSpanish3",
+                    // },
+                    
+            ],
+                "images" : [
+                    {
+                        "img":"sicilian-girls2.webp",
+                        "caption":"Rosa <br> Zia's daughter <br> 13 years",
+
+                    },  
+                    {
+                        "img":"sicilian-girls3.jpg",
+                        "caption":"Mary <br> Zia's daughter <br>9 years",
+
+                    },  
+                ],
+            },
+            // slack off in factory
+            firstDaySlack1: { 
+                "title": "Speaking With Carmela",
+                "statement": `      
+                    "Carmela," I say, "When will the men return from Alaska? Zia Cecillia said Zio just left a couple of weeks ago and---"
+                    <br><br>
+                    "The men will return in late October or November. Whenever the fishing season ends," Carmela responds shortly without looking
+                    up from her work, clearly indicating she does not want to speak any further.
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDaySlack1",
+                        "label": "Continue",
+                        "moveto": "firstDaySlack2",
+                    },
+                    { 
+                        "id": "firstDayAskSpanish2",
+                        "label": "Back",
+                        "moveto": "firstDayAskSpanish1",
+                    },
+                    
+                ],
+                "images" : [
+                    {
+                        "img":"sardines.jpeg",
+                        "caption":"Sardines",
+
+                    },
+                    {
+                        "img":"cannery-workers4.jpeg",
+                        "caption":"More ladies working",
+
+                    },
+                ],
+            },
+            firstDaySlack2: { 
+                "title": "Speaking With Vita",
+                "statement": `      
+                    Undeterred, looking around, I recognize Carmela's cousin, Vita.
+                    <br><br>
+                    "Vita!" I begin. "Monterey is such a little town. Is there anything to do around here that isn't . . . fishy?"
+                    <br><br>
+                    I hope to get at least a couple laughs, but instead, Vita lashes out exclaiming,
+                    "Guilia, hush! Focus on your work! By mocking your Sicilian roots, you degrade yourself and 
+                    the rest of your community. You are put yourself on the same level as those Spanish and Mexican girls who do not 
+                    appreciate the art of fishing, who only come here for the money."
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDaySlack2",
+                        "label": "Continue",
+                        "moveto": "hushTalkLatinaDecision",
+                    },
+                    { 
+                        "id": "firstDaySlack2",
+                        "label": "Back",
+                        "moveto": "firstDaySlack1",
+                    },
+                    
+                ],
+                "images" : [
+                    {
+                        "img":"vita.jpg",
+                        "caption":"Vita Greco",
+
+                    },
+                    {
+                        "img":"fish-sort.jpeg",
+                        "caption":"Vita (Carmela's cousin) sorting fish",
+
+                    },
+                    
+                ],
+            },
+            //hush or talk to latina girl
+            hushTalkLatinaDecision: { 
+                "title": "",
+                "statement": `    
+                    But I AM only here for the money, I think confusedly, looking at the other Sicilian girls around me who are determinedly refusing to make
+                    eye contact with me for fear of association.
+                    <br><br>
+                    Irritated with Vita's obnoxious behavior, I catch the eye of a Latina girl sitting across from me, her smiling eyes an invitation for conversation.
+                    <br><br>
+                    I know it would only get me in trouble to talk some more, especially with a non-Sicilian girl, and it would most certainly be reported back to Zia Cecilia, 
+                    but the idea of ignoring Vita's orders is tempting.
+                `,
+                "choices": [
+                    { 
+                        "id": "decisionHushTalkLatina",
+                        "label": "Talk to her",
+                        "moveto": "firstDaytalkToLatina1",
+                    },
+                    { 
+                        "id": "decisionHushTalkLatina",
+                        "label": "Hush",
+                        "moveto": "firstDayHush1",
+                    },
+                    
+                ],
+                "images" : [
+                    {
+                        "img":"sardines2.jpg",
+                        "caption":"More sardines",
+
+                    },
+                    {
+                        "img":"sardine-can.jpeg",
+                        "caption":"Sardine can",
+
+                    },
+                ],
+            },
+            firstDayHush1: { 
+                "title": "Hushing Up",
+                "statement": `      
+                    I shake my head, turning away from the girl's gaze and return to gutting the fish. 
+                    <br><br>
+                    As a guest in my aunt's house, it is not my place to antagonize her neighbors. Not only would it humiliate her, but most certainly lower both her 
+                    social standing and mine for being such a direspectful niece.
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDayHush1",
+                        "label": "Continue",
+                        "moveto": "firstDayHush2",
+                    },
+                    
+                ],
+                "images" : [
+                    {
+                        "img":"postcard3.jpeg",
+                        "caption":"Postcard",
+
+                    },
+                    {
+                        "img":"postcard4.jpeg",
+                        "caption":"Postcard",
+
+                    },
+                ],
+            },
+            firstDayHush2: { 
+                "title": "After Work",
+                "statement": `      
+                    The rest of the day is long and hard, my fingers growing numb in the cold and the bottom of my skirts are damp from the water running on the floor. 
+                    <br><br>
+                    My legs ache from standing for so long and as I stagger out of the cannery into the daylight with the other Sicilian girls, I almost miss the days when 
+                    I worked in the fields. At least I wasn't freezing and everybody wasn't so pretentious.
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDayHush2",
+                        "label": "Continue",
+                        "moveto": "firstDayHush3",
+                    },
+                    { 
+                        "id": "firstDayHush2",
+                        "label": "Back",
+                        "moveto": "firstDaySlack1",
+                    },
+                    
+                ],
+                "images" : [
+                    {
+                        "img":"cannery-signs2.jpg",
+                        "caption":"The Sea Pride Packing Corporation",
+
+                    },
+                    {
+                        "img":"crowds.jpeg",
+                        "caption":"Downtown",
+
+                    },
+                ],
+            },
+            firstDayHush3: { 
+                "title": "",
+                "statement": ` 
+                    The walk home feels much longer than the way here. After being humiliated by Vita earlier today, all the girls although still friends, remain somewhat 
+                    distant, as if I were contaminated by some disease they don't want to catch.
+                    <br><br>
+                    It is as if I'm one of the <i>other</i> girls--- the non-Sicilians. I'm treated kindly, but without respect.
+                    <br><br>
+                    When I get home the situation is not much better since Zia Cecilia was out all day and hasn't finished dinner. After helping finish the meal and tending the children,
+                    I am so hungry and exhausted that all I can do is tiredly scarf down my food while I listen to Zia Cecilia ramble.
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDayHush3",
+                        "label": "Continue",
+                        "moveto": "firstDayQuiet2",
+                    },
+                    
+                    
+                ],
+                "images" : [
+                    {
+                        "img":"horses-hauling-lumber.webp",
+                        "caption":"Horses hauling lumber",
+
+                    },
+                    {
+                        "img":"fishermans-wharf2.jpg",
+                        "caption":"Fisherman's Wharf",
+
+                    },
+                ],
+            },
+            // firstDayHush1: { 
+            //     "title": "Speaking With Vita",
+            //     "statement": `      
             //     `,
             //     "choices": [
             //         { 
-            //             "id": "firstDayGoToWork3",
+            //             "id": "firstDayHush2",
             //             "label": "Continue",
-            //             "moveto": "firstDayGoToWork4",
+            //             "moveto": "firstDaySlack3",
             //         },
             //         { 
-            //             "id": "firstDayGoToWork3",
+            //             "id": "firstDayHush2",
             //             "label": "Back",
-            //             "moveto": "firstDayGoToWork2",
+            //             "moveto": "firstDaySlack1",
             //         },
                     
-            // ],
+            //     ],
             //     "images" : [
             //         {
             //             "img":"coffee.webp",
@@ -593,8 +1116,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         console.log('HERE I AM '+(Date.UTC()));
     
         //reset to theBeginning later
-        let start = "workTalkDecision";
-        renderState("workTalkDecision");
+        let start = "hushTalkLatinaDecision";
+        renderState("hushTalkLatinaDecision");
     
         //function nextState(e) { renderState(e.data["next"]); }
     
