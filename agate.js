@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             theBeginning: { 
                 "title": "Diary Entry #1",
                 "statement": `
-                <i><span style="float:right; font-size:14px;">August 4, 1929</span>
+                <i><span style="float:right; font-size:14px;">August 4, 1931</span>
                 <br><br>
                 Dear diary,
                 <br><br>
@@ -907,7 +907,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     { 
                         "id": "decisionHushTalkLatina",
                         "label": "Talk to her",
-                        "moveto": "firstDaytalkToLatina1",
+                        "moveto": "talkToMexicanGirl1",
                     },
                     { 
                         "id": "decisionHushTalkLatina",
@@ -995,13 +995,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
             firstDayHush3: { 
                 "title": "",
                 "statement": ` 
-                    The walk home feels much longer than the way here. After being humiliated by Vita earlier today, all the girls although still friends, remain somewhat 
+                    The walk home feels much longer than the way here. After being humiliated by Vita earlier today, all the girls although friendly, remain somewhat 
                     distant, as if I were contaminated by some disease they don't want to catch.
                     <br><br>
                     It is as if I'm one of the <i>other</i> girls--- the non-Sicilians. I'm treated kindly, but without respect.
                     <br><br>
-                    When I get home the situation is not much better since Zia Cecilia was out all day and hasn't finished dinner. After helping finish the meal and tending the children,
-                    I am so hungry and exhausted that all I can do is tiredly scarf down my food while I listen to Zia Cecilia ramble.
+                    When I get home the situation is not much better since Zia Cecilia was at the Signora Russo's house all day with the Rosary Club and has not begun dinner.
+                    After helping fix up a quick meal of pasta and legumes (for the babies), I can hardly maintain a polite appearance of listening to Zia Cecilia ramble about her day 
+                    as I nibble at my dinner.
                 `,
                 "choices": [
                     { 
@@ -1025,21 +1026,575 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     },
                 ],
             },
-            // firstDayHush1: { 
-            //     "title": "Speaking With Vita",
+            talkToMexicanGirl1: { 
+                "title": "Talk to Girl",
+                "statement": `      
+                    Leaning over, I smile back and introduce myself in myself in English, "Hi, I'm Guilia. I'm sorry if I'm being a bother, but I'm 
+                    simply bored out of my mind. Have you been in the canneries for long? I just moved here from Salinas."
+                    <br><br>
+                    "I'm Ana," the girl says with a smile. "I was just in Salinas too--- the peach orchards, you know. 
+                    My family has been coming to Monterey for the past few years during the sardine season though."
+                `,
+                "choices": [
+                    { 
+                        "id": "talkToMexicanGirl",
+                        "label": "Continue",
+                        "moveto": "talkToMexicanGirl2",
+                    },
+
+                    
+                ],
+                "images" : [
+                    {
+                        "img":"postcard3.jpeg",
+                        "caption":"Monterey postcard",
+
+                    },
+                    {
+                        "img":"ana.jpeg",
+                        "caption":"Ana",
+
+                    },
+                ],
+            },
+            talkToMexicanGirl2: { 
+                "title": "",
+                "statement": `  
+                    Next to me, Carmela gives me a sharp kick and subtly motions towards Vita who is giving me the cut eye. 
+                    Likely she is irritated because like many Sicilians who reserve themselves to their familiar communities, she rarely practices
+                    her English and cannot understand a word of what we are saying.
+                    <br><br>
+                    Therefore, emboldened by this fact, I ignore Carmela's warning and smiling brightly, ask Ana, 
+                    "I've heard that a lot of families do that. Since you've been coming here for a while, what do you do for entertainment in your spare time?"
+                    <br><br>
+                    "Hmmm, well that depends on what you're interested in . . . " Ana begins.    
+                `,
+                "choices": [
+                    { 
+                        "id": "talkToMexicanGir2",
+                        "label": "Continue",
+                        "moveto": "talkToMexicanGirl3",
+                    },
+                    { 
+                        "id": "talkToMexicanGir2",
+                        "label": "Back",
+                        "moveto": "talkToMexicanGirl1",
+                    },
+
+                    
+                ],
+                "images" : [
+                    {
+                        "img":"envelope.jpeg",
+                        "caption":"Envelope",
+
+                    },
+                    {
+                        "img":"postcard4.jpeg",
+                        "caption":"Postcard",
+
+                    },
+                ],
+            },
+            talkToMexicanGirl3: { 
+                "title": "",
+                "statement": `
+                    "Guiliana Peretti!" barks a voice from behind me. Gulping, I turn around to see Signora Santoro directly behind me, her huge breadth
+                    literally casting a looming shadow over me.
+                    <br><br>
+                    In Sicilian, she lectures, "I have already heard the other girls admonish you for chattering when you are supposed to be doing your work.
+                    Do I have to watch over you like a schoolgirl? If I have to come here again, your aunt will be hearing about this."
+                    <br><br>
+                    Abashed, I lower my eyes and and mutter out an apology. Satisfied, Signora Santoro then turns around and gives a much longer 
+                    lecture to Ana (in English), threatening to fire her if she does not keep to her work. 
+                `,
+                "choices": [
+                    { 
+                        "id": "talkToMexicanGir3",
+                        "label": "Continue",
+                        "moveto": "talkToAnaDecision",
+                    },
+                    { 
+                        "id": "talkToMexicanGir3",
+                        "label": "Back",
+                        "moveto": "talkToMexicanGirl1",
+                    },
+
+                    
+                ],
+                "images" : [
+                    {
+                        "img":"cannery-workers5.jpg",
+                        "caption":"Cannery workers",
+
+                    },
+                    {
+                        "img":"signora-santoro.gif",
+                        "caption":"Signora Santoro",
+
+                    },
+                ],
+            },
+            //talk to ana after work?
+            talkToAnaDecision: { 
+                "title": "After Work",
+                "statement": `  
+                    Ten hours later, we are finally released from work. Rubbing my cold and aching fingers, I am about to join Carmela and the 
+                    group of Sicilian girls when I see Ana, smiling and gesturing me over.
+                    <br><br>
+                    I know that if I talk to Ana again, Vita will surely spread it all over the neighborhood. 
+                    <br><br>
+                    However, I'm surprised that Ana still wants to talk to me after being scolded so thorougly by Signora Santoro. Therefore, I 
+                    cannot help but feel vaguely curious about what Ana wants to tell me.
+                `,
+                "choices": [
+                    { 
+                        "id": "talkToAnaDecision",
+                        "label": "See what Ana wants",
+                        "moveto": "firstDayTalkAnaDecision",
+                    },
+                    { 
+                        "id": "talkToAnaDecision",
+                        "label": "Ignore her",
+                        "moveto": "firstDayIgnoreAna1",
+                    },
+                    
+                    
+                ],
+                "images" : [
+                    {
+                        "img":"fishermans-wharf.jpg",
+                        "caption":"Fisherman's wharf",
+
+                    },
+                    {
+                        "img":"atlantic-coast-fishery.jpeg",
+                        "caption":"Atlantic Coast Fishery",
+
+                    },
+                ],
+            },
+            firstDayIgnoreAna1: { 
+                "title": "Ignore Ana",
+                "statement": `  
+                    Frowning, I shake my head and nod towards the other girls who are already walking away. Despite my curiosity, 
+                    I'm already going to be in trouble when I get home and probably in for another lecture.
+                    <br><br>
+                    Smiling ruefully, Ana waves a flippant hand and mouths, "Later then," before running after her friends, calling out to them in Spanish.
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDayIgnoreAna1",
+                        "label": "Continue",
+                        "moveto": "firstDayIgnoreAna2",
+                    },
+                ],
+                "images" : [
+                    {
+                        "img":"cannery-row.jpg",
+                        "caption":"Wharfs",
+
+                    },
+                    {
+                        "img":"crowds.jpeg",
+                        "caption":"Crowds on Ocean View Ave.",
+
+                    },
+                ],
+            },
+            firstDayIgnoreAna2: { 
+                "title": "",
+                "statement": `      
+                    "What did she want?" Carmela asks curiously, when I catch up.
+                    <br><br>
+                    "I'm not sure," I admit. "I'm curious myself but I didn't want to get left behind since I don't know my way around here yet."
+                    <br><br>
+                    "True," Carmela agrees. "Besides, Signora Costa would probably be annoyed if you spent too much time talking to her anyhow. Ana is known to be 
+                    a bit of a troublemaker. She's always going to those <a href="" class="discover">CIO</a> meetings and whatnot."
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDayIgnoreAna2",
+                        "label": "Continue",
+                        "moveto": "firstDayIgnoreAna3",
+                    },
+                    // { 
+                    //     "id": "firstDayIgnoreAna2",
+                    //     "label": "Back",
+                    //     "moveto": "firstDayIgnoreAna1",
+                    // },
+
+                    
+                ],
+                "images" : [
+                    {
+                        "img":"horses-hauling-lumber.webp",
+                        "caption":"Horses hauling lumber",
+
+                    },
+                    {
+                        "img":"fishermans-wharf2.jpg",
+                        "caption":"Fisherman's Wharf",
+
+                    },
+                ],
+            },
+            firstDayIgnoreAna3: { 
+                "title": "",
+                "statement": `      
+                    "CIO?" I ask confused.
+                    <br><br>
+                    "It's a union a lot of the men are a part of. Well, the non-Sicilian ones, at least. They're always talking about
+                    getting us better pay and conditions in the canneries, but so far I haven't seen any results. 
+                    <br><br>
+                    "Anyhow, I think a lot of the ladies just don't like them because our men support the <a href="" class="discover">AFL</a>. It's another 
+                    union," Carmela explains when she sees the confusion on my face.
+                    <br><br>
+                    "Ana and some of her friends attend a lot of these meetings with the Spanish girls in the evenings. They tried to get me to come once
+                    but obviously I couldn't go. Can you imagine what Zia Russo would say?" she says with a shiver.
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDayIgnoreAna3",
+                        "label": "Continue",
+                        "moveto": "firstDayIgnoreAna4",
+                    },
+                    { 
+                        "id": "firstDayIgnoreAna3",
+                        "label": "Back",
+                        "moveto": "firstDayIgnoreAna2",
+                    },
+
+                    
+                ],
+                "images" : [
+                    {
+                        "img":"afl.jpg",
+                        "caption":"AFL Union",
+
+                    },
+                    {
+                        "img":"cio.jpg",
+                        "caption":"CIO pamphlet cover",
+
+                    },
+                ],
+            },
+            firstDayIgnoreAna4: { 
+                "title": "",
+                "statement": `      
+                    "Is that why we ignore the non-Sicilian girls?" I ask.
+                    <br><br>
+                    "Partly," Carmela admits. "It's also just because the aunties don't like us associating with anyone who they think will
+                    'corrupt' us, or make us more like Americans."
+                    <br><br>
+                    "But didn't we come to America to become Americans?" I ask confusedly.
+                    <br><br>
+                    "Not for them. They simply came because it was between here and starving. That's why they're so stubborn and cling to all those old 
+                    traditions--- especially our fishing culture. The didn't want to leave the old country, so they're trying to rebuild it here."
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDayIgnoreAna4",
+                        "label": "Continue",
+                        "moveto": "firstDayIgnoreAna5",
+                    },
+                    { 
+                        "id": "firstDayIgnoreAna4",
+                        "label": "Back",
+                        "moveto": "firstDayIgnoreAna3",
+                    },
+
+                    
+                ],
+                "images" : [
+                    {
+                        "img":"monterey.jpeg",
+                        "caption":"Grocery",
+
+                    },
+                    {
+                        "img":"chinese-cannery-row.jpeg",
+                        "caption":"Chinese settlement",
+
+                    },
+                ],
+            },
+            firstDayIgnoreAna5: { 
+                "title": "",
+                "statement": `      
+                    "But," Carmela says as we reach our homes, gripping my elbow as we begin to part.
+                    <br><br>
+                    "Could you please not repeat to anyone what I just said?" she asks. 
+                    "I don't want the aunties to think I'm being disrespectful of our culture. That's not my intention. I just . . . I don't always agree
+                    with everything they say, you know?"
+                    <br><br>
+                    "Of course," I say smiling, glad the two of us are uniting over this topic. "I completely understand."
+                    
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDayIgnoreAna5",
+                        "label": "Continue",
+                        "moveto": "firstDayIgnoreAna6",
+                    },
+                    { 
+                        "id": "firstDayIgnoreAna5",
+                        "label": "Back",
+                        "moveto": "firstDayIgnoreAna4",
+                    },
+
+                    
+                ],
+                "images" : [
+                    {
+                        "img":"cannery-row2.jpg",
+                        "caption":"Ocean View Avenue",
+
+                    },
+                    {
+                        "img":"fishermans-wharf.jpg",
+                        "caption":"Fishing shacks",
+
+                    },
+                ],
+            },
+            //invitation to union meeting
+            firstDayTalkAnaDecision: { 
+                "title": "Talk to Ana",
+                "statement": ` 
+                    Deciding to go see what Ana has to say, I quickly whisper to Carmela, "I'll be back in a moment," and before she can respond
+                    I'm hurrying away.
+                    <br><br>
+                    Smiling, Ana says the typical greetings and starts up a polite little conversation before getting to her point.
+                    <br><br>
+                    "Hey, you said you were looking for things to do around town, right?" she asks in a hurried voice. "Well, some of my friends and I are going down to the <a href="" class="discover">Half-Way House<a/> 
+                    after work on Friday for a union meeting. I don't know if you're interested in that sort of thing . . . "
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDayTalkAnaDecision",
+                        "label": "Accept invitation",
+                        "moveto": "firstDayAgreeUnion1",
+                    },
+                    { 
+                        "id": "firstDayTalkAnaDecision",
+                        "label": "Decline invitation",
+                        "moveto": "firstDayDisagreeUnion1",
+                    },
+                ],
+                "images" : [
+                    {
+                        "img":"coffee.webp",
+                        "caption":"Breakfast",
+
+                    },
+                ],
+            },
+            firstDayDisagreeUnion1: { 
+                "title": "",
+                "statement": `   
+                    Shaking my head, I politely decline, "No, I'm sorry but I probably cannot go to that. My family would not approve."
+                    <br><br>
+                    "It's okay, I understand," Ana says. "But if you ever change your mind though, you know where to find us."
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDayDisagreeUnion1",
+                        "label": "Continue",
+                        "moveto": "firstDayDisagreeUnion2",
+                    },
+                ],
+                "images" : [
+                    {
+                        "img":"coffee.webp",
+                        "caption":"Breakfast",
+
+                    },
+                ],
+            },
+            firstDayDisagreeUnion2: { 
+                "title": "",
+                "statement": `   
+                    Once Ana walks away, I hurry to catch up with the Carmela and the other girls.
+                    <br><br>
+                    "What did she say?" Carmela asks, trying to inconspiciously twist her head around for a glance back.
+                    <br><br>
+                    "Oh, she was just inviting me to some union meeting. I declined of course," I hurriedly add, seeing the alarm on Carmela's face.
+                    <br><br>
+                    "Good thing you did," Carmela says, a little worriedly. "Ana is known to be 
+                    a bit of a troublemaker. She's always going to those <a href="" class="discover">CIO</a> meetings and whatnot."
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDayDisagreeUnion2",
+                        "label": "Continue",
+                        "moveto": "firstDayIgnoreAna3",
+                    },
+                    { 
+                        "id": "firstDayDisagreeUnion2",
+                        "label": "Back",
+                        "moveto": "firstDayDisagreeUnion1",
+                    },
+                ],
+                "images" : [
+                    {
+                        "img":"coffee.webp",
+                        "caption":"Breakfast",
+
+                    },
+                ],
+            },
+            firstDayAgreeUnion1: { 
+                "title": "Accept Invitation",
+                "statement": `   
+                    "Actually, I would love to come," I say brightly.
+                    <br><br>
+                    "Really? That'd be fantastic!" Ana says brightly and it seems to me, somewhat surprised. "Remember, after work on Fridayyyy!," she calls 
+                    as one of her friends playfully grabs her arm and drags her away.
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDayAgreeUnion1",
+                        "label": "Continue",
+                        "moveto": "firstDayAgreeUnion2",
+                    },
+                ],
+                "images" : [
+                    {
+                        "img":"coffee.webp",
+                        "caption":"Breakfast",
+
+                    },
+                ],
+            },
+            firstDayAgreeUnion2: { 
+                "title": "",
+                "statement": `   
+                    As soon as Ana leaves, Carmela comes up beside me, worriedly asking, "What is after work on Friday?"
+                    <br><br>
+                    "Ana invited me to a union meeting at the Half-Way House," I respond, concious of Carmela's eyebrows which are already furrowing together.
+                    "Do you know where that is?"
+                    <br><br>
+                    Immediantly, Carmela's eyebrows furrow together and grabs my hand, worriedly asking, "And you didn't actually accept, did you?"
+                    <br><br>
+                    "Of course I did," I reply, irritated by Carmela's anxiety. "I've been here one day and if I have to spend the next who knows how many years of my life
+                    in these canneries, I'm going to lose my mind."
+                    <br><br>
+                    "Oh! But what will the aunties say?" Carmela cries out in real distress. "You must know that they are so strict about associating with people who aren't Sicilan like us.
+                    Zia Cecilia would never let you go!"
+                    <br><br>
+                    "Well, she won't know," I casually respond. "Because you won't tell her."
+                    <br><br>
+                    All signs of distress are wiped from Carmela's face with my threat. "That's not fair Guilia! You know that Signora Costa is going to ask me where you are as soon
+                    as you don't come home from work. What am I supposed to tell her?"
+                    <br><br>
+                    "Nothing," I say with a grin. "Because you're going to come with me."
+
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDayAgreeUnion2",
+                        "label": "Continue",
+                        "moveto": "firstUnionMeeting1",
+                    },
+                    { 
+                        "id": "firstDayAgreeUnion2",
+                        "label": "Back",
+                        "moveto": "firstDayAgreeUnion1",
+                    },
+                ],
+                "images" : [
+                    {
+                        "img":"coffee.webp",
+                        "caption":"Breakfast",
+
+                    },
+                ],
+            },
+            firstUnionMeeting1: { 
+                "title": "Friday",
+                "statement": `   
+                    A few days later, after much protesting from Carmela, I manage to convince her to accompany me to the union meeting on Friday.
+                    <br><br>
+                    I want her to come along because one, I have no idea where the Half-Way House is; and two, because although I don't admit it, I have my 
+                    own reservations about the union. I've heard about the previous strikes and how they failed, the cannery owners simply replacing the workers with 
+                    new immigrants, ones "fresh off the boat" and willing to work in the canneries dirty conditions. 
+                    <br><br>
+                    However, I've made my cross and now I must bear it. Friday evening, after hurrying home to change and tell Zia Cecilia that I'm going with Carmela to Vita's 
+                    embroidery club for the evening, the two of us conspiciously hurry down the street to the Half-Way House.
+                `,
+                "choices": [
+                    { 
+                        "id": "firstUnionMeeting1",
+                        "label": "Continue",
+                        "moveto": "firstUnionMeeting2",
+                    },
+                    { 
+                        "id": "firstUnionMeeting1",
+                        "label": "Back",
+                        "moveto": "firstDayAgreeUnion2",
+                    },
+                ],
+                "images" : [
+                    {
+                        "img":"coffee.webp",
+                        "caption":"Breakfast",
+
+                    },
+                ],
+            },
+            firstUnionMeeting2: { 
+                "title": "Arriving at the Half-Way House",
+                "statement": `   
+                    Being Friday night, the Half-Way House is packed. However, Carmela and I are clearly the only Sicilian
+                    girls here and conciously aware of the fact, we nervously keep to ourselves until I spot Ana who excitedly waves us over.
+                    <br><br>
+                    "I'm so glad you're here!" Ana exclaims. "None of them thought you would come," she adds, giving her friends a dirty look.
+                    <br><br>
+                    "Well, you are Sicilian--- no offense intended," says one of the girls.
+                    <br><br>
+                    "Rosa . . . " Ana says warningly.
+                    <br><br>
+                    "No, it's okay," I say, laughing somewhat uncomfortably, already questioning if this was a mistake.
+                    <br><br>
+                    However, just then the first speaker goes on and as everybody settles down, it would seem rude to walk out now.
+                "choices": [
+                    { 
+                        "id": "firstDayAgreeUnion2",
+                        "label": "Continue",
+                        "moveto": "firstDayAgreeUnion3",
+                    },
+                    { 
+                        "id": "firstDayAgreeUnion2",
+                        "label": "Back",
+                        "moveto": "firstDayAgreeUnion1",
+                    },
+                ],
+                "images" : [
+                    {
+                        "img":"coffee.webp",
+                        "caption":"Breakfast",
+
+                    },
+                ],
+            },
+            // firstDayTalkAna1: { 
+            //     "title": "",
             //     "statement": `      
             //     `,
             //     "choices": [
             //         { 
-            //             "id": "firstDayHush2",
+            //             "id": "firstDayTalkAna1",
             //             "label": "Continue",
-            //             "moveto": "firstDaySlack3",
+            //             "moveto": "firstDayTalkAna2",
             //         },
             //         { 
-            //             "id": "firstDayHush2",
+            //             "id": "firstDayIgnoreAna2",
             //             "label": "Back",
-            //             "moveto": "firstDaySlack1",
+            //             "moveto": "firstDayIgnoreAna1",
             //         },
+
                     
             //     ],
             //     "images" : [
@@ -1116,8 +1671,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         console.log('HERE I AM '+(Date.UTC()));
     
         //reset to theBeginning later
-        let start = "hushTalkLatinaDecision";
-        renderState("hushTalkLatinaDecision");
+        let start = "talkToMexicanGirl1";
+        renderState("talkToMexicanGirl1");
     
         //function nextState(e) { renderState(e.data["next"]); }
     
