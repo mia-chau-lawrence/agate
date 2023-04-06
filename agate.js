@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             theBeginning: { 
                 "title": "Diary Entry #1",
                 "statement": `
-                <i><span style="float:right; font-size:14px;">August 4, 1931</span>
+                <i><span style="float:right; font-size:14px;">August 4, 1935</span>
                 <br><br>
                 Dear diary,
                 <br><br>
@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 "images" : [
                     {
                         "img":"guilia1.jpg",
-                        "caption":"Me<br>Salinas, 1927",
+                        "caption":"Me<br>Salinas, 1934",
 
                     },
                     {
@@ -1051,8 +1051,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
                     },
                     {
-                        "img":"ana.jpeg",
-                        "caption":"Ana",
+                        "img":"ana-young.jpg",
+                        "caption":"Ana Garcia",
 
                     },
                 ],
@@ -1336,7 +1336,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     { 
                         "id": "firstDayIgnoreAna5",
                         "label": "Continue",
-                        "moveto": "firstDayIgnoreAna6",
+                        "moveto": "deathGravestone",
                     },
                     { 
                         "id": "firstDayIgnoreAna5",
@@ -1385,8 +1385,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 ],
                 "images" : [
                     {
-                        "img":"coffee.webp",
-                        "caption":"Breakfast",
+                        "img":"horses-hauling-lumber.webp",
+                        "caption":"Horses hauling lumber",
+
+                    },
+                    {
+                        "img":"fishermans-wharf2.jpg",
+                        "caption":"Fisherman's Wharf",
 
                     },
                 ],
@@ -1407,8 +1412,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 ],
                 "images" : [
                     {
-                        "img":"coffee.webp",
-                        "caption":"Breakfast",
+                        "img":"fishing-boasts.jpg",
+                        "caption":"Boats",
+
+                    },
+                    {
+                        "img":"monterey1.jp3g",
+                        "caption":"Monterey",
 
                     },
                 ],
@@ -1439,8 +1449,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 ],
                 "images" : [
                     {
-                        "img":"coffee.webp",
-                        "caption":"Breakfast",
+                        "img":"crowds2.jpg",
+                        "caption":"Crowds on wharf",
+
+                    },
+                    {
+                        "img":"pier.jpg",
+                        "caption":"Pier, Monterey",
 
                     },
                 ],
@@ -1462,8 +1477,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 ],
                 "images" : [
                     {
-                        "img":"coffee.webp",
-                        "caption":"Breakfast",
+                        "img":"crowds2.jpg",
+                        "caption":"Crowds on wharf",
+
+                    },
+                    {
+                        "img":"pier.jpg",
+                        "caption":"Pier, Monterey",
 
                     },
                 ],
@@ -1506,8 +1526,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 ],
                 "images" : [
                     {
-                        "img":"coffee.webp",
-                        "caption":"Breakfast",
+                        "img":"monterey3.jpg",
+                        "caption":"Monterey",
+
+                    },
+                    {
+                        "img":"sardines4.jpg",
+                        "caption":"Sardine boats",
 
                     },
                 ],
@@ -1522,7 +1547,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     new immigrants, ones "fresh off the boat" and willing to work in the canneries dirty conditions. 
                     <br><br>
                     However, I've made my cross and now I must bear it. Friday evening, after hurrying home to change and tell Zia Cecilia that I'm going with Carmela to Vita's 
-                    embroidery club for the evening, the two of us conspiciously hurry down the street to the Half-Way House.
+                    embroidery club for the evening, the two of us conspicuously hurry down the street to the Half-Way House.
                 `,
                 "choices": [
                     { 
@@ -1538,14 +1563,19 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 ],
                 "images" : [
                     {
-                        "img":"coffee.webp",
-                        "caption":"Breakfast",
+                        "img":"fishing-boats.jpg",
+                        "caption":"Boats",
+
+                    },
+                    {
+                        "img":"monterey1.jpeg",
+                        "caption":"Monterey",
 
                     },
                 ],
             },
             firstUnionMeeting2: { 
-                "title": "Arriving at the Half-Way House",
+                "title": "",
                 "statement": `   
                     Being Friday night, the Half-Way House is packed. However, Carmela and I are clearly the only Sicilian
                     girls here and conciously aware of the fact, we nervously keep to ourselves until I spot Ana who excitedly waves us over.
@@ -1554,58 +1584,418 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     <br><br>
                     "Well, you are Sicilian--- no offense intended," says one of the girls.
                     <br><br>
-                    "Rosa . . . " Ana says warningly.
+                    "Dolores . . . " Ana says warningly.
                     <br><br>
                     "No, it's okay," I say, laughing somewhat uncomfortably, already questioning if this was a mistake.
                     <br><br>
-                    However, just then the first speaker goes on and as everybody settles down, it would seem rude to walk out now.
+                    However, just then the first speaker goes on and as everybody settles down, it would seem rude to walk out now. 
+                `,
                 "choices": [
                     { 
-                        "id": "firstDayAgreeUnion2",
+                        "id": "firstUnionMeeting2",
                         "label": "Continue",
-                        "moveto": "firstDayAgreeUnion3",
+                        "moveto": "firstUnionMeeting3",
                     },
                     { 
-                        "id": "firstDayAgreeUnion2",
+                        "id": "firstUnionMeeting2",
                         "label": "Back",
-                        "moveto": "firstDayAgreeUnion1",
+                        "moveto": "firstDayAgreeUnion3",
                     },
                 ],
                 "images" : [
                     {
-                        "img":"coffee.webp",
-                        "caption":"Breakfast",
+                        "img":"ana-friends.jpg",
+                        "caption":"Ana's friends",
+
+                    },
+                    {
+                        "img":"dolores.jpg",
+                        "caption":"Doloress",
+
+                    },
+                    
+                ],
+            },
+            firstUnionMeeting3: { 
+                "title": "",
+                "statement": `   
+                   As the meeting continues, more speakers go up to speak and I am surprised by how captivating I find them. 
+                   <br><br>
+                   One speaker is an elderly man who laments the years he put into the canneries, ruining his back and health for life. Another is a man in his mid-twenties
+                   who left school at the age of thirteen to make extra money for his family. He made 33 cents an hour--- until he lost his left hand in machinery accident and was
+                   fired by the cannery for his carelessness. 
+                   <br><br>
+                   There is even a female speaker, a Spanish woman who points out that it is necessary for immigrant families to have two working parents if they are to survive,
+                   but cannot do this if they have young children. 
+                   `,
+                "choices": [
+                    { 
+                        "id": "firstUnionMeeting3",
+                        "label": "Continue",
+                        "moveto": "firstUnionMeeting4",
+                    },
+                    { 
+                        "id": "firstUnionMeeting3",
+                        "label": "Back",
+                        "moveto": "firstUnionMeeting2",
+                    },
+
+                    
+                ],
+                "images" : [
+                    {
+                        "img":"speaker.jpg",
+                        "caption":"Speaker",
+
+                    },
+                    {
+                        "img":"speaker2.jpg",
+                        "caption":"Another speaker",
 
                     },
                 ],
             },
-            // firstDayTalkAna1: { 
-            //     "title": "",
-            //     "statement": `      
-            //     `,
-            //     "choices": [
-            //         { 
-            //             "id": "firstDayTalkAna1",
-            //             "label": "Continue",
-            //             "moveto": "firstDayTalkAna2",
-            //         },
-            //         { 
-            //             "id": "firstDayIgnoreAna2",
-            //             "label": "Back",
-            //             "moveto": "firstDayIgnoreAna1",
-            //         },
+            firstUnionMeeting4: { 
+                "title": "After the Meeting",
+                "statement": `   
+                    After the meeting, Carmela and I walk home with Ana and Dolores, all of us excited by the meeting.
+                    <br><br>
+                    "But I don't understand," I say. "Why don't more Sicilians join these unions? We saw Mexicans, Spanish, Portuguese . . . just about everybody in that meeting except us."
+                    <br><br>
+                    Dolores begins to say something, but Ana stops her for moment before thoughtfully saying, "I think it is a difference in circumstances. When you Sicilians first arrived in 
+                    Monterey, you already had knew about fishing and therefore helped jumpstart the canning industries. Since you all have such tightly-knit communities, this gave you an advantage
+                    because you could lend one another money, give one another the best jobs, and so forth."
+                    <br><br>
+                    "Which gave you all an advantage," Dolores says somewhat accusingly. "Have you ever wondered why the floor directors are almost always Sicilian? It is because your families
+                    have such a strong hold in the industries. You own the boats, the canneries . . . It makes you all blind to how the rest of us struggle!"
+                `,
+                "choices": [
+                    { 
+                        "id": "firstUnionMeeting4",
+                        "label": "Continue",
+                        "moveto": "firstUnionMeeting5",
+                    },
+                    { 
+                        "id": "firstUnionMeeting4",
+                        "label": "Back",
+                        "moveto": "firstUnionMeeting3",
+                    },
 
                     
-            //     ],
-            //     "images" : [
-            //         {
-            //             "img":"coffee.webp",
-            //             "caption":"Breakfast",
+                ],
+                "images" : [
+                    {
+                        "img":"dolores-fam.png",
+                        "caption":"Dolores' family",
 
-            //         },
-            //     ],
-            // },
-        
+                    },
+                    {
+                        "img":"o-family.png",
+                        "caption":"Displaced family from Oklahoma",
+
+                    },
+                    
+                ],
+            },
+
+            firstUnionMeeting5: { 
+                "title": "",
+                "statement": `   
+                    "Yes Dolores, we get the picture," Ana says interupts impatiently. "But we're not here to play the blame game. We're here to make change. Guilia, Carmela,
+                    we want the canneries to officially give us the right to organize a union. We are planning a big strike next spring. Lots of us are going to walk off of our
+                    and refuse to work until the canneries agree to give us better wages and conditions.
+                    <br><br>
+                    "I know that this is a lot to ask and I haven't know you for long, but this is your chance to make a difference. To advocate for change that will help EVERYBODY.
+                    <br><br>
+                    "Guilia, you've hardly been here a week and every time we talk you're always complaining about your aching back or fingers. How you hate waking up at random times in the morning without
+                    warning and not knowing when you will come home. Carmela, I'm sure you feel the same too."
+                `,
+                "choices": [
+                    { 
+                        "id": "firstUnionMeeting5",
+                        "label": "Continue",
+                        "moveto": "joinStrikeDecision",
+                    },
+                    { 
+                        "id": "firstUnionMeeting5",
+                        "label": "Back",
+                        "moveto": "firstUnionMeeting4",
+                    },
+
+                    
+                ],
+                "images" : [
+                    {
+                        "img":"monterey4.webp",
+                        "caption":"Downtown",
+
+                    },
+                    {
+                        "img":"store.jpeg",
+                        "caption":"Store",
+
+                    },
+                ],
+            },
+            joinStrikeDecision: { 
+                "title": "Walking Home",
+                "statement": `   
+                    "You wouldn't have to make any official commitment for a while, but we would love to know if you would be interested in joining and if you could help encourage other people you know to join.
+                    <br><br>
+                    "We've got to go now," Ana says as we reach an intersection. "Let me know your decision on Monday?"
+                    <br><br>
+                    "Of course," I say.
+                    <br><br>
+                    As soon as they are out of earshot, Carmela asks, "You aren't really thinking of joining, are you?"
+                    <br><br>
+                    "I think . . . "
+                `,
+                "choices": [
+                    { 
+                        "id": "firstUnionMeeting6",
+                        "label": "Yes! I'm in!",
+                        "moveto": "joinStrike1",
+                    },
+                    { 
+                        "id": "firstUnionMeeting6",
+                        "label": "No, too risky",
+                        "moveto": "noJoinStrike1",
+                    },
+
+                    
+                ],
+                "images" : [
+                    {
+                        "img":"chinese-cannery-row.jpeg",
+                        "caption":"Streets",
+
+                    },
+                    {
+                        "img":"store.jpeg",
+                        "caption":"Store",
+
+                    },
+                ],
+            },
+            nojoinStrike1: { 
+                "title": "Don't Join Strike",
+                "statement": `   
+                    "I think . . . I don't think I will. I really like Ana, but we simply don't know enough about their organization 
+                    and I don't want to do anything that we may potentially regret."
+                    <br><br>
+                    "Good," says Carmela. "I like Ana too, but I don't think that yelling about our problems in the streets is going to change anything.
+                    If we want to get things done, we need to just work hard and save our money. After all, the ones with the money has the power.
+                    <br><br>
+                    "Now come on, we need to get home before Signora Costa and Zia Russo begin to wonder where we are."
+                `,
+                "choices": [
+                    { 
+                        "id": "joinStrike1",
+                        "label": "Continue",
+                        "moveto": "deathGravestone",
+                    },
+                ],
+                "images" : [
+                    {
+                        "img":"postcard5.jpg",
+                        "caption":"Postcard",
+
+                    },
+                    {
+                        "img":"envelope2.jpg",
+                        "caption":"Envelope",
+
+                    },
+                ],
+            },
+            joinStrike1: { 
+                "title": "Join Strike",
+                "statement": `   
+                    "I think . . . I think I'm going to joing the strike," I decide. "I want to make a difference, you know? I spent my entire childhood
+                    picking fruit in Salinas and when Papa was killed in the tractor incident, nobody said anything. 
+                    <br><br>
+                    "We HAVE the power to advocate, we just don't use it. We have family who own the fishing boats, who run the canneries, yet we do nothing. 
+                    <br><br>
+                    "We have one life . . . and I don't want to waste it quietly gutting fish in a factory."
+                `,
+                "choices": [
+                    { 
+                        "id": "joinStrike1",
+                        "label": "Continue",
+                        "moveto": "joinStrike2",
+                    },
+                ],
+                "images" : [
+                    {
+                        "img":"latino-family.jpg",
+                        "caption":"Migrant family",
+
+                    },
+                    {
+                        "img":"cannery-workers6.jpg",
+                        "caption":"Workers",
+
+                    },
+                ],
+            },
+            joinStrike2: { 
+                "title": "Join Strike",
+                "statement": `   
+                    I say all of this hurriedly while looking at the ground, afraid of what Carmela is going to say. She is silent a moment before she begins to speak.
+                    <br><br>
+                    "Well, if you're going to do it  . . .  then I'm coming with you."
+                    <br><br>
+                    Looking up astonished, I cannot help but say in amazement, "Really?"
+                    <br><br>
+                    "Of course, we Sicilian girls have got each other's backs, don't we? Now, let's catch up to Ana and tell her right now before you begin to get all 
+                    nervous and chicken out."
+                    <br><br>
+                    Laughing, I say, "Race you!" and we turn around, charging back down the street, calling Ana's name.
+                `,
+                "choices": [
+                    { 
+                        "id": "joinStrike2",
+                        "label": "Continue",
+                        "moveto": "joinStrike3",
+                    },
+                    { 
+                        "id": "joinStrike2",
+                        "label": "Back",
+                        "moveto": "joinStrike1",
+                    },
+                ],
+                "images" : [
+                    {
+                        "img":"postcard5.jpg",
+                        "caption":"Postcard",
+
+                    },
+                    {
+                        "img":"envelope2.jpg",
+                        "caption":"Envelope",
+
+                    },
+                ],
+            },
+            //end screens
+            joinStrike3: { 
+                "title": "Six Years Later . . . ",
+                "statement": `   
+                    <i><span style="float:right; font-size:14px;">August 7, 1941</span>
+                    <br><br>
+                    Dear diary,
+                    <br><br>
+                    Life in Monterey has changed a lot in the past few years. In 1936, Carmela and I spent a lot of time encouraging other girls, epecially Sicilians, to 
+                    join the strike. By April, when the strike occurred, hundreds of people cannery workers walked off their jobs, forcing many cannery owners to negotiate 
+                    terms with the strikers.
+                    <br><br>
+                    Since then, there have been gradual changes in the industries. Perhaps the most obvious is the higher pay and regular hours. No longer are we scrambling to wake up at odds hours of the day,
+                    but simply head to work from 8:00am to 5:00pm. If we have to work any longer than the, then we get paid overtime. The floor ladies aren't allowed to show such blatant favoritism anymore either and seniority
+                    right are observed when appointing one. 
+                    <br><br>
+                    They are also giving more rights to women too. For one, if you get pregnant you're not automatically fired. These days, they're even talking of building an on-site daycare center for cannery workers!
+                    <br><br>
+                    Anyhow, I've got to go now. I have work in an hour. Bye!
+                    <br><br>
+                    Sincerely,
+                    <br>
+                    Giuliana Peretti 
+                `,
+                "choices": [
+                    { 
+                        "id": "joinStrike3",
+                        "label": "Continue",
+                        "moveto": "joinStrike3",
+                    },
+                ],
+                "images" : [
+                    {
+                        "img":"sicilian-girls.jpg",
+                        "caption":"Some of the girls and I",
+
+                    },
+                    {
+                        "img":"ana.jpeg",
+                        "caption":"Ana",
+
+                    },
+                ],
+            },
+            deathGravestone: { 
+                "title": "In Loving Memory Of . . . ",
+                "statement": `   
+                    <i><div style="text-align:center">July 18, 1919 - August 7, 1941</div>
+                    <br>
+                    Beloved wife and mother of eight children, Guiliana Peretti Lombardi tragically died in a workplace accident when her hair fell out of its net and caught in a conveyor belt.
+                    The young mother died of blood loss shortly after.
+                    <br><br>
+                    However, her death was not in vain because it inspired many workers to advocate for greater workplace safety.
+                    <br><br>
+                    For those still with questions, Guilianna's husband is available at all hours to comfort any grieving young woman who may be struggling with Guiliana's death.
+                `,
+                "choices": [
+                    { 
+                        "id": "joinStrike3",
+                        "label": "Continue",
+                        "moveto": "joinStrike3",
+                    },
+                ],
+                "images" : [
+                    {
+                        "img":"gravestone.jpeg",
+                        "caption":"Guiliana's gravestone",
+
+                    },
+                    {
+                        "img":"husband.jpg",
+                        "caption":"Available at <br>424-298-5437", 
+
+                    },
+                ],
+            },
+            firstDayGoToBed: { 
+                "title": "Six Years Later . . . ",
+                "statement": `
+                    <i><span style="float:right; font-size:14px;">August 7, 1941</span>
+                    <br><br>
+                    Dear diary,
+                    <br><br>   
+                    Life in Monterey has changed a lot since I first arrived six years ago. 
+                    <br><br>
+                    I'm not exactly sure when, but at some point I began to notice that I was recieving more money and being given paid overtime. There's no more hurrying to work
+                    at short notice anymore either--- nowadays it's just an 8:00-5:00 job. 
+                    <br><br>
+                    I was appointed floor lady two years ago too, but I have not been allowed to exercise my power the same way Signora Santoro was allowed to back in her day.
+                    When I tried to show favoritism towards one girl, I had the union leaders swooping down on me and the cannery threatening to fire me if I did anything of the sort again!
+                    <br><br>
+                    At least I didn't get fired when I had my little Antonina. When I came back having my babies, I was reinstated as floor lady as if I'd never been gone.
+                    <br><br>
+                    Anyhow, I've got to go now. The children are fighting in the room over.
+                    <br><br>
+                    Sincerely,
+                    <br>
+                    Giuliana Peretti Lombardi
+                `,
+                "choices": [
+                    { 
+                        "id": "joinStrike3",
+                        "label": "Continue",
+                        "moveto": "joinStrike3",
+                    },
+                ],
+                "images" : [
+                    {
+                        "img":"daughter1.jpg",
+                        "caption":"Antonina",
+
+                    },
+                    {
+                        "img":"husband.jpg",
+                        "caption":"My husband", 
+
+                    },
+                ],
+            },
         /*end*/ 
         };
     
@@ -1671,8 +2061,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         console.log('HERE I AM '+(Date.UTC()));
     
         //reset to theBeginning later
-        let start = "talkToMexicanGirl1";
-        renderState("talkToMexicanGirl1");
+        let start = "theBeginning";
+        renderState("theBeginning");
     
         //function nextState(e) { renderState(e.data["next"]); }
     
