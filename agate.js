@@ -2011,10 +2011,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     <div class="main-enclose">
                         <div class="question">
                         <ul class="top-bar">
-                            <li class="top-bar"><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
-                            <li class="top-bar"><a href="#news">News</a></li>
-                            <li class="top-bar"><a href="#contact">Contact</a></li>
-                            <li class="top-bar"><a href="#about">About</a></li>
+                            <li class="top-bar"><a href="index.html"><img class="home-image" src="house-solid.svg" alt="Home"/></a></li>
+                            <li class="top-bar"><a href="index.html"><img class="home-image" src="book-solid.svg" alt="Book"/></a></li>
                         </ul>
                             <h2 style="text-align:center">${state["title"]}</h2>
                             <p>${state["statement"]}</p>

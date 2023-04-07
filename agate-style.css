@@ -78,19 +78,25 @@ ul.top-bar {
 }
 
 li.top-bar {
-float: right;
+    float: right;
+    margin: 0;
+    padding: 0;
 }
 
 li.top-bar a {
-display: block;
-color: #248f8f;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
+    display: block;
+    color: #248f8f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0px 10px;
 }
 
-li.top-bar a:hover {
-background-color: red;
+.home-image {
+    fill: #248f8f;
+    width:1.1em;
+    height:1.1em;
 }
 
 /*polaroid*/
