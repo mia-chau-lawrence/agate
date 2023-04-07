@@ -69,14 +69,36 @@ footer {
     color:white;
 }
 
-/* */
+/* top navigation */
+ul.top-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li.top-bar {
+float: right;
+}
+
+li.top-bar a {
+display: block;
+color: #248f8f;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li.top-bar a:hover {
+background-color: red;
+}
 
 /*polaroid*/
 .polaroid-container {
     display: flex;
     position: relative; /* add position relative to make child elements position absolute */
     flex-wrap:wrap;
-    background-color:red;
+    
   }
   
   .polaroid-container > div {
@@ -216,7 +238,7 @@ a:hover.discover {
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: black transparent transparent transparent;
+    border-color: black transparent;
   }
   
   .tooltip:hover .tooltiptext {

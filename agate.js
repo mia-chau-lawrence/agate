@@ -1902,11 +1902,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     Giuliana Peretti 
                 `,
                 "choices": [
-                    { 
-                        "id": "joinStrike3",
-                        "label": "Continue",
-                        "moveto": "joinStrike3",
-                    },
+                    // { 
+                    //     "id": "joinStrike3",
+                    //     "label": "Finish",
+                    //     "moveto": "index.html",
+                    // },
                 ],
                 "images" : [
                     {
@@ -1934,11 +1934,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     For those still with questions, Guilianna's husband is available at all hours to comfort any grieving young woman who may be struggling with Guiliana's death.
                 `,
                 "choices": [
-                    { 
-                        "id": "joinStrike3",
-                        "label": "Continue",
-                        "moveto": "joinStrike3",
-                    },
+                    // { 
+                    //     "id": "joinStrike3",
+                    //     "label": "Finish",
+                    //     "moveto": "index.html",
+                    // },
                 ],
                 "images" : [
                     {
@@ -1977,11 +1977,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     Giuliana Peretti Lombardi
                 `,
                 "choices": [
-                    { 
-                        "id": "joinStrike3",
-                        "label": "Continue",
-                        "moveto": "joinStrike3",
-                    },
+                    // { 
+                    //     "id": "joinStrike3",
+                    //     "label": "Finish",
+                    //     "moveto": "index.html",
+                    // },
                 ],
                 "images" : [
                     {
@@ -2010,6 +2010,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 <div class="content-display">
                     <div class="main-enclose">
                         <div class="question">
+                        <ul class="top-bar">
+                            <li class="top-bar"><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+                            <li class="top-bar"><a href="#news">News</a></li>
+                            <li class="top-bar"><a href="#contact">Contact</a></li>
+                            <li class="top-bar"><a href="#about">About</a></li>
+                        </ul>
                             <h2 style="text-align:center">${state["title"]}</h2>
                             <p>${state["statement"]}</p>
                         
