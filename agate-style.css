@@ -99,29 +99,61 @@ li.top-bar a {
     height:1.1em;
 }
 
+/* journal */
+.journal-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    object-fit: contain;
+    align-items: stretch;
+}
+
+.journal-container > div {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    background-color:white;
+    margin: 30px 10px;
+    font-size: 30px;
+    overflow:hidden;
+    line-height: 1.6;
+}
+
+.journal-text {
+    padding:20px 30px;
+    font-size: 16px;
+    float:left;
+    width: 80%;
+}
+
+.journal-images {
+    width: 20%;
+    height: 100%;
+    float:right;
+    
+}
+
 /*polaroid*/
 .polaroid-container {
     display: flex;
     position: relative; /* add position relative to make child elements position absolute */
     flex-wrap:wrap;
     
-  }
+}
   
-  .polaroid-container > div {
+.polaroid-container > div {
     padding: 10px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
     margin: 40px 20px;
     position: absolute; 
     font-size:18px;
-  }
+}
   
-.polaroid-container:nth-of-type(odd) > div{
+.polaroid-container:nth-of-type(odd) > div {
     left: 0; 
     rotate: -7deg;
     background-color:#dfb9be;
     /* background-image: linear-gradient(to right, #ebcec6 , #f2ded9); */
     width: 40%;
-  }
+}
   
 .polaroid-container:nth-of-type(even) > div {
     right: 0; 
@@ -131,7 +163,7 @@ li.top-bar a {
     width: 45%;
 }
 
-.polaroid-container:hover > div {
+.polaroid-container:hover > div, .journal-container:hover > div {
     transition:0.5s;
     opacity:0.75;
 }

@@ -45,10 +45,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "caption":"A postcard I found",
                     },
                     
-                    // {
-                    //     "img":"horses-hauling-lumber.webp",
-                    //     "caption":"Lumber wagon on Ocean View Ave",
-                    // },
                 ],
             },
     
@@ -195,7 +191,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 "images" : [
                     {
                         "img":"ocean-view-ave1.jpeg",
-                        "caption":"Ocean View Ave this morning",
+                        "caption":`<a href="" class="discover">Ocean View Ave</a> this morning`,
 
                     },
                     {
@@ -1197,7 +1193,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     },
                     {
                         "img":"crowds.jpeg",
-                        "caption":"Crowds on Ocean View Ave.",
+                        "caption":`Crowds on <a href="" class="discover">Ocean View Ave</a>`,
 
                     },
                 ],
@@ -1349,7 +1345,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 "images" : [
                     {
                         "img":"cannery-row2.jpg",
-                        "caption":"Ocean View Avenue",
+                        "caption":`<a href="" class="discover">Ocean View Ave</a>`,
 
                     },
                     {
