@@ -2002,12 +2002,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
             
             let tileHtml = '';
             
-                let tileTemplate = `
+                let tileTemplate = ` 
                 <div class="content-display">
                     <div class="main-enclose">
                         <div class="question">
-                        <ul class="top-bar">
+                        <ul class="top-bar inline">
                             <li class="top-bar"><a href="index.html"><img class="home-image" src="house-solid.svg" alt="Home"/></a></li>
+                            <li class="top-left"><img src="chevron-left-solid.svg" alt="Home" id="back-button" class="home-image" ></li>
                         </ul>
                             <h2 style="text-align:center">${state["title"]}</h2>
                             <p>${state["statement"]}</p>
@@ -2045,21 +2046,40 @@ document.addEventListener('DOMContentLoaded', (event) => {
     
             document.getElementById('text-tile').innerHTML = tileHtml;  
 
-            document.querySelector('.button-box').addEventListener('click', function(e) {
-                if (e.target && e.target.matches('.answer-button')) {
+            const buttons = document.getElementsByClassName('answer-button');
+            for(let btn of buttons) {
+
+                btn.addEventListener('click', function(e) {
                     const next = e.target.dataset.next;
+                    states.push(next);
                     renderState(next);
-                    
-                    //store state values in a test
-                    states.push(myAdventure[next].title);
-                    console.log(states);
+                    //store state values in an arrry
+                    console.log(states)
+                });
+    
+            }
+            //event listener for back button
+            document.getElementById('back-button').addEventListener('click', function(e) {
+                //const next = e.target.dataset.next;
+                //renderState(next);
+                
+                //store state values in a test
+                if (states.length > 0) {
+                    const next = states.pop();
+                    renderState(next);
                 }
+                console.log(states)
+                // states.push(myAdventure[next].title);
+                // console.log(states);
             });
             
 
         } // end of renderState function
         
-        console.log('HERE I AM '+(Date.UTC()));
+        //go back function
+        function goBack() {
+
+        }
     
         //reset to theBeginning later
         let start = "theBeginning";
