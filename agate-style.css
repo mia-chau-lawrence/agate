@@ -47,6 +47,32 @@ header {
     border-style: solid;*/
 }
 
+/* create page */
+.create-menclose {
+    font-family:arial, sans-serif;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.12), 0 6px 12px rgba(0,0,0,0.24);
+    transition:0.3s;
+    padding:40px 60px;
+    width:100%;
+    overflow:hidden;
+    border-radius:5px;
+    border: 6px solid #248f8f;
+}
+
+.create-display {
+    line-height: 1.6;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    width:100%;
+}
+
+.create-display > div {
+    margin: 20px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.12), 0 6px 12px rgba(0,0,0,0.24);
+    transition:0.3s;
+}
+
 /*.main-enclose:hover {
   box-shadow: 0 12px 24px rgba(0,0,0,0.12), 0 9px 18px rgba(0,0,0,0.24); 
 }*/
@@ -214,8 +240,21 @@ div.polaroid-text {
     padding-top:15px;
 }
 
+.code {
+    font-family: 'Courier New', monospace;
+    background-color:#f2f2f2;
+    color:red;
+}
 .center {
     text-align:center;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding:15px;
 }
 
 .answer-button {
@@ -315,7 +354,7 @@ a:hover.discover {
         padding: 15px 10px;
     }
 
-    .main-enclose {
+    .main-enclose, .create-menclose {
         padding:10px;
     }
 

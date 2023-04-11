@@ -2008,7 +2008,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         <div class="question">
                         <ul class="top-bar">
                             <li class="top-bar"><a href="index.html"><img class="home-image" src="house-solid.svg" alt="Home"/></a></li>
-                            <li class="top-bar"><a href="index.html"><img class="home-image" src="book-solid.svg" alt="Book"/></a></li>
                         </ul>
                             <h2 style="text-align:center">${state["title"]}</h2>
                             <p>${state["statement"]}</p>
@@ -2045,11 +2044,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 tileHtml += tileTemplate;   
     
             document.getElementById('text-tile').innerHTML = tileHtml;  
-    
+
             document.querySelector('.button-box').addEventListener('click', function(e) {
                 if (e.target && e.target.matches('.answer-button')) {
                     const next = e.target.dataset.next;
                     renderState(next);
+                    
+                    //store state values in a test
                     states.push(myAdventure[next].title);
                     console.log(states);
                 }
@@ -2068,4 +2069,3 @@ document.addEventListener('DOMContentLoaded', (event) => {
     
         //}());
       })
-    
