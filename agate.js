@@ -67,11 +67,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "firstDayGoToWork2",
                     },
-                    { 
-                        "id": "firstDayGoToWork1",
-                        "label": "Back",
-                        "moveto": "theBeginning",
-                    },
+                    
                     
                 ],
                 "images" : [
@@ -105,11 +101,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "firstDayGoToWork3",
                     },
-                    { 
-                        "id": "firstDayGoToWork2",
-                        "label": "Back",
-                        "moveto": "firstDayGoToWork1",
-                    },
+                    
                     
                 ],
                 "images" : [
@@ -144,11 +136,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "firstDayGoToWork4",
                     },
-                    { 
-                        "id": "firstDayGoToWork3",
-                        "label": "Back",
-                        "moveto": "firstDayGoToWork2",
-                    },
+                    
                     
                 ],
                 "images" : [
@@ -181,11 +169,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "firstDayGoToWork5",
                     },
-                    { 
-                        "id": "firstDayGoToWork4",
-                        "label": "Back",
-                        "moveto": "firstDayGoToWork3",
-                    },
+                    
                     
             ],
                 "images" : [
@@ -216,11 +200,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "firstDayGoToWork6",
                     },
-                    { 
-                        "id": "firstDayGoToWork5",
-                        "label": "Back",
-                        "moveto": "firstDayGoToWork4",
-                    },
+                    
                     
             ],
                 "images" : [
@@ -256,11 +236,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "workTalkDecision",
                     },
-                    { 
-                        "id": "firstDayGoToWork6",
-                        "label": "Back",
-                        "moveto": "firstDayGoToWork5",
-                    },
+                    
                     
             ],
                 "images" : [
@@ -297,7 +273,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "moveto": "firstDaySlack1",
                     },
                     { 
-                        "id": "workSlackDecision",
+                        "id": "workTalkDecision",
                         "label": "No, quietly resume work",
                         "moveto": "firstDayWorkHard1",
                     },
@@ -361,11 +337,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "firstDayWorkHard3",
                     },
-                    { 
-                        "id": "firstDayWorkHard2",
-                        "label": "Back",
-                        "moveto": "firstDayWorkHard1",
-                    },
+                    
                     
             ],
                 "images" : [
@@ -396,11 +368,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "firstDayWorkHard4",
                     },
-                    { 
-                        "id": "firstDayWorkHard3",
-                        "label": "Back",
-                        "moveto": "firstDayWorkHard2",
-                    },
+                    
                     
             ],
                 "images" : [
@@ -434,11 +402,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "decisionQuietAskSpanish",
                     },
-                    { 
-                        "id": "firstDayWorkHard4",
-                        "label": "Back",
-                        "moveto": "firstDayWorkHard3",
-                    },
+                    
                     
             ],
                 "images" : [
@@ -542,11 +506,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "firstDayQuiet3",
                     },
-                    { 
-                        "id": "firstDayQuiet2",
-                        "label": "Back",
-                        "moveto": "firstDayQuiet1",
-                    },
+                    
                     
             ],
                 "images" : [
@@ -579,11 +539,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "firstDayQuiet4",
                     },
-                    { 
-                        "id": "firstDayQuiet3",
-                        "label": "Back",
-                        "moveto": "firstDayQuiet2",
-                    },
+                    
                     
             ],
                 "images" : [
@@ -614,11 +570,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "firstDayQuiet5",
                     },
-                    { 
-                        "id": "firstDayQuiet4",
-                        "label": "Back",
-                        "moveto": "firstDayQuiet3",
-                    },
+                    
                     
             ],
                 "images" : [
@@ -648,11 +600,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "firstDayGoToBed",
                     },
-                    { 
-                        "id": "firstDayQuiet5",
-                        "label": "Back",
-                        "moveto": "firstDayQuiet4",
-                    },
+                    
                     
             ],
                 "images" : [
@@ -715,11 +663,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "firstDayAskSpanish3",
                     },
-                    { 
-                        "id": "firstDayAskSpanish2",
-                        "label": "Back",
-                        "moveto": "firstDayAskSpanish1",
-                    },
+                    
                     
             ],
                 "images" : [
@@ -755,11 +699,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "firstDayGoToBed",
                     },
-                    { 
-                        "id": "firstDayAskSpanish3",
-                        "label": "Back",
-                        "moveto": "firstDayAskSpanish2",
-                    },
+                    
                     
             ],
                 "images" : [
@@ -828,11 +768,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "firstDaySlack2",
                     },
-                    { 
-                        "id": "firstDayAskSpanish2",
-                        "label": "Back",
-                        "moveto": "firstDayAskSpanish1",
-                    },
+                    
                     
                 ],
                 "images" : [
@@ -866,11 +802,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "hushTalkLatinaDecision",
                     },
-                    { 
-                        "id": "firstDaySlack2",
-                        "label": "Back",
-                        "moveto": "firstDaySlack1",
-                    },
+                    
                     
                 ],
                 "images" : [
@@ -968,11 +900,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "firstDayHush3",
                     },
-                    { 
-                        "id": "firstDayHush2",
-                        "label": "Back",
-                        "moveto": "firstDaySlack1",
-                    },
+                    
                     
                 ],
                 "images" : [
@@ -1071,11 +999,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "talkToMexicanGirl3",
                     },
-                    { 
-                        "id": "talkToMexicanGir2",
-                        "label": "Back",
-                        "moveto": "talkToMexicanGirl1",
-                    },
+                    
 
                     
                 ],
@@ -1110,11 +1034,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "talkToAnaDecision",
                     },
-                    { 
-                        "id": "talkToMexicanGir3",
-                        "label": "Back",
-                        "moveto": "talkToMexicanGirl1",
-                    },
+                    
 
                     
                 ],
@@ -1255,11 +1175,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "firstDayIgnoreAna4",
                     },
-                    { 
-                        "id": "firstDayIgnoreAna3",
-                        "label": "Back",
-                        "moveto": "firstDayIgnoreAna2",
-                    },
+                    
 
                     
                 ],
@@ -1295,11 +1211,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "firstDayIgnoreAna5",
                     },
-                    { 
-                        "id": "firstDayIgnoreAna4",
-                        "label": "Back",
-                        "moveto": "firstDayIgnoreAna3",
-                    },
+                    
 
                     
                 ],
@@ -1334,11 +1246,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "deathGravestone",
                     },
-                    { 
-                        "id": "firstDayIgnoreAna5",
-                        "label": "Back",
-                        "moveto": "firstDayIgnoreAna4",
-                    },
+                    
 
                     
                 ],
@@ -1437,11 +1345,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "firstDayIgnoreAna3",
                     },
-                    { 
-                        "id": "firstDayDisagreeUnion2",
-                        "label": "Back",
-                        "moveto": "firstDayDisagreeUnion1",
-                    },
+                    
                 ],
                 "images" : [
                     {
@@ -1514,11 +1418,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "firstUnionMeeting1",
                     },
-                    { 
-                        "id": "firstDayAgreeUnion2",
-                        "label": "Back",
-                        "moveto": "firstDayAgreeUnion1",
-                    },
+                    
                 ],
                 "images" : [
                     {
@@ -1551,11 +1451,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "firstUnionMeeting2",
                     },
-                    { 
-                        "id": "firstUnionMeeting1",
-                        "label": "Back",
-                        "moveto": "firstDayAgreeUnion2",
-                    },
+                    
                 ],
                 "images" : [
                     {
@@ -1592,11 +1488,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "firstUnionMeeting3",
                     },
-                    { 
-                        "id": "firstUnionMeeting2",
-                        "label": "Back",
-                        "moveto": "firstDayAgreeUnion3",
-                    },
+                    
                 ],
                 "images" : [
                     {
@@ -1630,11 +1522,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "firstUnionMeeting4",
                     },
-                    { 
-                        "id": "firstUnionMeeting3",
-                        "label": "Back",
-                        "moveto": "firstUnionMeeting2",
-                    },
+                    
 
                     
                 ],
@@ -1671,11 +1559,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "firstUnionMeeting5",
                     },
-                    { 
-                        "id": "firstUnionMeeting4",
-                        "label": "Back",
-                        "moveto": "firstUnionMeeting3",
-                    },
+                    
 
                     
                 ],
@@ -1712,11 +1596,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "joinStrikeDecision",
                     },
-                    { 
-                        "id": "firstUnionMeeting5",
-                        "label": "Back",
-                        "moveto": "firstUnionMeeting4",
-                    },
+                    
 
                     
                 ],
@@ -1854,11 +1734,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         "label": "Continue",
                         "moveto": "joinStrike3",
                     },
-                    { 
-                        "id": "joinStrike2",
-                        "label": "Back",
-                        "moveto": "joinStrike1",
-                    },
+                    
                 ],
                 "images" : [
                     {
@@ -2007,8 +1883,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     <div class="main-enclose">
                         <div class="question">
                         <ul class="top-bar inline">
-                            <li class="top-bar"><a href="index.html"><img class="home-image" src="house-solid.svg" alt="Home"/></a></li>
-                            <li class="top-left"><img src="chevron-left-solid.svg" alt="Home" id="back-button" class="home-image" ></li>
+                            <li class="top-bar"><a href="index.html"><img src="house-solid.svg" alt="Home" class="home-image"></a></li>
+                            <li class="top-left"><img src="circle-chevron-left-solid.svg" alt="Back Button" id="back-button" class="home-image" ></li>
                         </ul>
                             <h2 style="text-align:center">${state["title"]}</h2>
                             <p>${state["statement"]}</p>
@@ -2050,8 +1926,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
             for(let btn of buttons) {
 
                 btn.addEventListener('click', function(e) {
+                    const current_state = e.target.id;
                     const next = e.target.dataset.next;
-                    states.push(next);
+                
+                    states.push(current_state);
                     renderState(next);
                     //store state values in an arrry
                     console.log(states)
