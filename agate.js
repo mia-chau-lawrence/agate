@@ -6,26 +6,26 @@ document.addEventListener('DOMContentLoaded', (event) => {
             theBeginning: { 
                 "title": "Diary Entry #1",
                 "statement": `
-                <i><span style="float:right; font-size:14px;">August 4, 1935</span>
+                <i><span style="float:right; font-size:14px;">August 4, 1936</span>
                 <br><br>
                 Dear diary,
                 <br><br>
-                Earlier this afternoon, I arrived in Monterey to live with <span class="tooltip">Zia<span class="tooltiptext">Sicilian for maternal aunt. Pronounced "tsia"</span></span> and her family. I must say, after living in Salinas for the past
-                few years, I was surprised by the amount of bustle in what I had assumed to be a simple fishing town. Of course, I had heard that the canneries had attracted immigrants from all over the world (especially my own Sicilian people) but I was
-                completely unprepared huge variety of foreign cultures, dress, and speech that I saw around me. 
+                Earlier this afternoon, I arrived in Monterey to live with <span class="tooltip">Zia<span class="tooltiptext">Sicilian for maternal aunt. Pronounced "tsia"</span></span>  Cecilia and her family. I must say, after living in Salinas for the past
+                few years, I was surprised by the amount of bustle in what I had assumed to be a simple fishing town. Of course, I had heard that the canneries had attracted immigrants from all over the world (especially my own Sicilian people), but I was
+                completely unprepared for the huge variety of foreign cultures, dress, and speech that I saw around me. 
                 <br><br>
-                I myself was drawn to live here with Zia Cecilia and family so I could work in the canneries. They say the Sicilian community is stronger here than anywhere else in California, and after Papa's death it 
-                would be comforting to surround myself with my own people. 
+                To be fair, I myself drawn to live with Zia Cecilia and family in Monterey so I could work in the canneries. They say the Sicilian community is stronger here than anywhere else in California, and after Papa's death it 
+                would be comforting to be surrounded by my own people. 
                 <br><br>
-                Already, Signora Russo, Zia Cecilia's friend, managed to get me a job at <a href="" class="discover">San Carlos</a> through a friend and has already promised to send her niece over
-                when the <a href="" class="discover">cannery whistles</a> call in the morning. Apparently the sardine catches come in at very unpredictable times but when they do, everybody knows because the whistles can be heard 
+                Already, Signora Russo, Zia Cecilia's friend, managed to get me a job at the <a href="https://www.santacruztrains.com/2016/09/cannery-row-san-carlos-canning-company.html" target="_blank" class="discover">San Carlos Cannery</a> through a friend and has already promised to send her niece over
+                when the <a href="https://canneryrow.com/our-story/the-canneries/" class="discover" target="_blank">cannery whistles</a> call in the morning. Apparently the sardine catches come in at very unpredictable times, but when they do, everybody knows because the whistles can be heard 
                 screaming across town.
                 <br><br>
                 Anyhow, I ought to go to sleep now if I am to be rested tomorrow. Goodnight!
                 <br><br>
                 Sincerely,
                 <br>
-                Giuliana Peretti 
+                Guiliana Peretti 
                 `, 
                 "choices": [
                     { 
@@ -52,11 +52,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 "title": "Breakfast",
                 "statement": `
                     Zia Cecilia was right. It is not even daylight when the shrill, single-toned screaming of the cannery whistles are heard across town.
-                    However, after spending two years as a field hand, stooping for hours the hot sun to pick fruit in order to support myself and my "sick" father, 
-                    the opportunity for change is cause enough for excitement. 
                     <br><br>
-                    After dressing, I rush into the kitchen where Zia Cecilia has already arisen and is making a pot of hot coffee. However, I have hardly entered the room when 
-                    I hear a knock at the door.
+                    Inwardly groaning, I have to check myself, remembering that I am lucky to even have a job. Thus motivated, I hastily rise out or bed and dress before rushing into the kitchen where Zia Cecilia has 
+                    already arisen and is making a pot of coffee on the stove. On the table, she has set half a loaf of bread, leftover from last night's dinner. 
+                    <br><br>
+                    Greeting Zia with a polite good morning, I am about to sit down for breakfast when I hear a knock at the door.
                     <br><br>
                     Arising quickly, I go to open it. On the doorstep stands a girl about my age wearing a staunch white apron, black rubber gloves, and a dark hair staunchly kept back in a hair net.
                     Held close to her chest is another similar outfit.
@@ -90,10 +90,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     "<span class="tooltip">Bon jornu<span class="tooltiptext">Sicilian for "good morning"</span></span> <span class="tooltip">Signora<span class="tooltiptext">Sicilian for Mrs.</span></span> Costa.
                     It is nice to see you this morning," she says smiling politely to my aunt who has come to the door. 
                     <br><br>
-                    Giving a quick glance at the clock in the kitchen before turning to me, she says warmly, "And you must be Guilia, I am Carmela Amato, Signora Russo sent me. I'm sure she told you."
+                    Giving a quick glance at the clock in the kitchen before turning to me, she says warmly, "And you must be Guilia! I am Carmela Amato, Signora Russo from across the street sent me. I'm sure she told you."
                     <br><br>
-                    Thrusting the clothes in her hands towards me, she continues, "I don't mean to be sharp, but get changed into these quick if you want time to eat breakfast.
-                    It is required that all cannery workers wear the aprons and gloves, otherwise the floor director won't let you inside."
+                    Not waiting for a response, she thrusts the clothes in her hands towards me, "I don't mean to be sharp, but get changed into these quick if you want time to eat breakfast.
+                    It is required that all cannery workers wear the aprons and gloves, otherwise the floor director won't let you inside. Besides, without them your clothes would get stained and your 
+                    loose hair could get caught in one of the machines--- which wouldn't be the best start to the day."
                 `,
                 "choices": [
                     { 
@@ -125,7 +126,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     <br><br>
                     "Don't thank me, just get dressed. We have less than half an hour to get to the cannery, otherwise both of us will be late and probably lose our jobs."
                     <br><br>
-                    "Yes, you had probably best hurry up Guillia," Zia Cecilia agrees. "You're already running late. Carmela, would you like to come in for some coffee quickly?"
+                    "Yes, you had probably best hurry up Guillia," Zia Cecilia agrees. "You're already running late. Carmela, would you like to come in for some coffee before you leave?"
                     <br><br>
                     "<span class="tooltip">Sì, pi favuri<span class="tooltiptext">Sicilian for "Yes please"<br>Prounced "see, pee fa-VOO-ree"</span></span>," Carmela says, clearly grateful for the invitation as she steps inside. 
                     "I would love to."
@@ -156,12 +157,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
             firstDayGoToWork4: { 
                 "title": "Going to Work",
                 "statement": `
-                After putting on the apron and hair net, I join Carmela who is already at dining table, quickly finishing my slice of bread and coffee before Carmela practically drags me out the door, insisting we are going to be late.
+                After putting on the apron and hair net, I join Carmela who has already sat down to eat who is all good manners and decorum despite her haste.
+                Meanwhile, I have barely finished my slice of bread and coffee before Carmela practically drags me out the door, insisting we are going to be late.
                 <br><br>
-                Speed walking as fast as proper, we join another group of girls--- all Sicilian--- who are also on their way to the canneries. 
+                Speed walking as fast as proper, we catch up with another group of girls--- all Sicilian--- who are also on their way to the canneries. 
                 <br><br>
                 The girls are a jovial bunch, cheerful despite the early hour and cheerfully welcome me into the fold.
-                Glad to be accepted so quickly, I happily join in the gossip and chatter as we trek towards the wharf.
+                Glad to be accepted so quickly, I happily join the gossip and chatter as we trek towards the wharf.
                 `,
                 "choices": [
                     { 
@@ -175,7 +177,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 "images" : [
                     {
                         "img":"ocean-view-ave1.jpeg",
-                        "caption":`<a href="" class="discover">Ocean View Ave</a> this morning`,
+                        "caption":`Ocean View Ave this morning`,
 
                     },
                     {
@@ -189,10 +191,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
             firstDayGoToWork5: { 
                 "title": "Arriving at San Carlos",
                 "statement": `
-                    However, as we enter the cannery, the jovial moods of the girls disappear as they pull on their gloves and disperse into towards their <a href="" class="discover">different stations</a>.
+                    However, once we arrive at the canneries, the cheerful moods of the girls disappear as they pull on their gloves and fix their hair nets, 
+                    as serious as if we were approaching a battlefield. 
+                    <br><br>
+                    Entering San Carlo, I begin to understand why, as we are immediantly hit by the deafening roar of the machines and cold air, the awful stench of 
+                    fish seems to eminate from the place. Unsure about what to do, I linger a moment as the other girls disperse towards their different stations. 
                     <br><br> 
-                    It is cold and drafty in the cannery, making me shiver so badly that I have difficulty handing the knife Carmela hands me to <a href="" class="discover">clean the sardines</a>. The deafening roar of the
-                    machinery isn't helping either and I can already feel the oncomings of a headache.
+                    Grabbing my hand, Carmela leads me to a conveyor belt, instructing me that I am to do as she does.
+                    However, already I am shivering so badly that I have difficulty handling the knife Carmela hands me to clean the sardines. 
                 `,
                 "choices": [
                     { 
@@ -222,13 +228,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 "statement": `
                     "Here," Carmela says, gesturing to sardine in front of her, the conveyer belt already beginning to carry it away. 
                     "I know it is cold but you get used to it. Right now you must be quick if you want to do clean the fish right. Are you watching me? All you have to do is slice off the head and tail like this. Then cut the stomach open and
-                    squeeze out the guts. No don't keep it the fish, just let the conveyor belt carry it away to be canned."
+                    squeeze out the guts. No, don't keep the fish, just let the conveyor belt carry it away to be canned."
                     <br><br>
-                    "Will we have to do that later?" I ask between chattering teeth. The water on the floor is soaking into my shoes.
+                    "Will we have to can them later?" I ask between chattering teeth. The water on the floor is soaking into my shoes.
                     <br><br>
-                    "No," clearly irritated by my question. "Haven't you ever worked in a factory before? Everyone here has one job, but you must do it fast. For example,
-                    their are the people who sort the fish, there are the people who pack the cans, who roll them, who cut and clean them like us. This way we get things done quickly. 
-                    Now hush, that's Signora Santoro, the floor lady, coming our way and she's very strict about staying on task." 
+                    "No," clearly irritated by my question. "Haven't you ever worked in a factory before? Everyone here has one job.
+                    For example, there are the people who sort the fish, there are the people who pack the cans, who roll them, who cut and clean them like us. They all perform one action the whole time they are here,
+                    but it must be done efficiently. Now hush, that's Signora Santoro, the floor lady, coming our way and she's very strict about staying on task." 
                 `,
                 "choices": [
                     { 
@@ -256,15 +262,15 @@ document.addEventListener('DOMContentLoaded', (event) => {
             workTalkDecision: { 
                 "title": "Two hours later. . . ",
                 "statement": `
-                    It does not take long for me to become sick of cleaning the fish. Literally. The overwhelming smell of fish and pure 
-                    monotomy of slicing and gutting them makes me sick. 
+                    It does not take long for me to become sick of cleaning the fish. Literally. The pure monotomy of slicing and cutting the fish and their overwhelming smell 
+                    makes me sick.
                     <br><br> 
-                    I long to talk to some of the girls again, but turning to Carmela, she is clearly immersed in her task, fingers deftly cutting one fish after another.
-                    A quick glance at the other girls shows the rest of them to be just as absorbed in their mind-numbing tasks. Other than the roar of machinery, the barking orders by Signora
+                    I long to talk to some of the girls, but turning to Carmela, I can see she is completely immersed in her task, fingers deftly cutting one fish after another like a machine.
+                    A quick glance at the other girls shows the rest of them to be just as absorbed in their mind-numbing tasks. Other than the roar of machinery, the occasional barked reprimand by Signora
                     Santoro (primarily towards the Mexican and Spanish girls), and the yelling of men working the machines, not a sound is to be heard.
                     <br><br>
                     Despite the fact that everyone seems to be concentrated on their job, I feel that I am going to scream if I have to sit in silence a moment longer. A quick glance over 
-                    my shoulder shows that Sonora Santoro is far away, lurking over the shoulders of girls across the room. The coast is clear . . . should I try and start a conversation?
+                    my shoulder shows that Signora Santoro is far away, lurking over the shoulders of girls across the room. The coast is clear . . . should I try and start a conversation?
                 `,
                 "choices": [
                     { 
@@ -300,7 +306,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     be doing so right now. After all, everyone had been very chatty on the way here.
                     <br><br>
                     Putting my head down, I swallow my boredom and reach for another sardine to gut. I came to live with Zia Cecilia so I could get work, not to play. 
-                    If I am to earn my keep, I must do my job, and do it well.
+                    If I am to earn my keep, I must do my job and put my head down.
                 `,
                 "choices": [
                     { 
@@ -326,7 +332,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             firstDayWorkHard2: { 
                 "title": "Ten Hours Later . . . ",
                 "statement": `
-                    When the last sardine has been sorted, cut, cleaned, and canned, we are finally done with work and allowed to go home hours after we initially left this morning.
+                    When the last sardine has been sorted, cut, cleaned, and canned, we are finally done with work and allowed to go home, hours after we initially left this morning.
                     <br><br>
                     All of us are exhausted, our fingers numb from spending hours in the cold. The stench of the sardines cling to our clothes and hair making passerbys wrinkle
                     their noses as we go past them.
@@ -359,8 +365,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     However, the other Sicilian girls pretend to pay them no mind, putting up a brilliant pretense of being in a good mood and energetically 
                     waving one another over as they exit the cannery.  
                     <br><br>
-                    Grouped together so solidly and voices raised high in the Sicilian language, 
-                    we Sicilian girls appear to be the domineering group of workers at the cannery. 
+                    Grouped closely together and practically spilling over the sidewalk, our raised voices clambering over one another in the Sicilian language, 
+                    we seem to create some sort of solid front, as if we left the battlefield and won. Rather than being ashamed of their disheveled appearances,
+                    the girls tease and laugh, almost taking pride to the point of flaunting it.
                 `,
                 "choices": [
                     { 
@@ -387,14 +394,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
             firstDayWorkHard4: { 
                 "title": "",
                 "statement": `
-                    However, it is clear that this group is Sicilans-only. As the rest of the cannery workers file past us, all of girls
+                    However, I am not unaware that this group is Sicilians-only. As the rest of the cannery workers file past us, all of girls
                     maintain a cool demeanor, remaining distant even as a group of Spanish girls cheerfully wave goodbye. 
                     <br><br>
                     Vita, Carmela's cousin, even goes so far as to say (in Sicilian), "Ugh, those Spanish girls are so annoying. Always trying to talk to us so we'll join 
                     that silly union of theirs."
                     <br><br>
                     I am shocked by Vita's rudeness and I want to talk back, but not only did I not understand Vita's mentions of "unions," 
-                    the girls' demeanor has made it clear that interracial relationships do not exist here in Monterey. Or if they do, Sicilians don't participate in them.
+                    the girls' demeanor and reaction has made it clear that interracial relationships do not exist here in Monterey. Or if they do, Sicilians don't participate in them.
                     `,
                 "choices": [
                     { 
@@ -425,8 +432,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     After waving goodbye to Carmela, I tiredly trudge inside the house to help Zia Cecilia cook dinner and tend the children. 
                     <br><br>
                     It is easy to understand why Zia Cecilia and <span class="tooltip">Zio<span class="tooltiptext">Sicilian for uncle</span></span> Ignazio had been
-                    so eager to take me in. With eight children and another on the way, it must be impossible to maintain a household without external help and Zio away 
-                    fishing for most of the year. 
+                    so eager to take me in. With eight children and another on the way, it must be impossible to maintain a household without external help. Especially since Zio,
+                    like most Sicilian fishermen, is away for most the year in faraway places.
                     <br><br>
                     However, although I know I am supposed to be good since I am living on the generosity of relatives, as we sit down to eat, I cannot help but remember how Vita scorned the Spanish girls at work today.
                     <br><br>
@@ -449,7 +456,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 "images" : [
                     {
                         "img":"zia-cecilia2.jpg",
-                        "caption":"Zio Ignazio & Zia Cecilia with Angelo",
+                        "caption":"Zio Ignazio & Zia Cecilia with Angelo (son)",
 
                     },
                     {
@@ -466,8 +473,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 "statement": `
                     Biting my lip, I keep my mouth shut, knowing that I cannot afford to afford to affront my aunt so early into my stay.
                     <br><br>
-                    The other girls made it clear we do not associate with non-Sicilian people and Zia Cecilia would likely be insulted if 
-                    I began expressing curiosity towards the other ethnic clans.
+                    The other girls made it clear we do not associate with non-Sicilian people and Zia Cecilia, being fairly traditional,
+                     would likely be insulted if I began expressing curiosity towards ethnic clans other than my own.
 
                 `,
                 "choices": [
@@ -495,8 +502,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 "statement": `
                     "You would not believe what Signora Russo told me today, <span class="tooltip">nipote<span class="tooltiptext">Sicilian for niece<br>Pronounced "nee-poh-tay".</span></span>," begins Zia Cecilia as she spoonfeeds one of her children.
                     <br><br>
-                    "Today, at the Rosary Club, Signora Messina began talking about how her husband wants her to join the <a href="" class="discover">AFL</a>--- that silly union all the men are talking about these days.
-                    Apparently he says all the Spanish women support their husbands in the <a href="" class="discover">CIO</a> these days and told
+                    "Today, at the Rosary Club, Signora Messina began talking about how her husband wants her to join the <a href="https://en.wikipedia.org/wiki/American_Federation_of_Labor" class="discover" target="_blank">AFL</a>--- that silly union all the men are talking about these days.
+                    Apparently he says all the Spanish women support their husbands in the <a href="https://en.wikipedia.org/wiki/Congress_of_Industrial_Organizations#:~:text=The%20Congress%20of%20Industrial%20Organizations,(AFL)%20by%20John%20L." class="discover" target="_blank">CIO</a> these days and told
                     Signora Messina it makes him and the other Sicilian men look bad! Can believe it?! The audacity of men these days!"
 
                 `,
@@ -525,13 +532,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
             firstDayQuiet3: { 
                 "title": "",
                 "statement": `
-                    "And then Signora Russo chimed in and do you know she told us? She said her sister-in-laws nephew went to one of those meetings and told her he saw Spanish girls actually <i>speak</i>! 
+                    "And then Signora Russo chimed in and do you know she told us? She said her sister-in-law's nephew went to one of those meetings and told her he saw Spanish girls actually <i>speak</i>! 
                     <br><br>
-                    "Instead of staying home with their families like good girls, they're publicly speaking in front of a group of men who don't care about a thing besides a glimpse down their shirts when they lean over! 
+                    "Instead of staying home with their families like good girls, they're publicly speaking in front of a group of men who only listen to them in the hopes of getting a glimpse down their shirt!
                     <br><br>
-                    "It was all so ridiculous that I couldn't help but say to the ladies---" Zia Cecilia says, lowering her voice and darting her eyes towards the children to ensure they aren't paying attention.
-                    "I believe some of these girls must be <span class="tooltip">puttanas<span class="tooltiptext">Sicilian for prostitute. <br> Pronounced "poot-tah-nahs"</span></span>. After all, why else 
-                    would any woman do such a crazy thing?"
+                    "It was all so ridiculous that I couldn't help but say to the ladies---" Zia Cecilia says, lowering her voice and darting her eyes towards the children and lowering her voice.
+                    "I believe some of these girls must be <span class="tooltip">puttanas<span class="tooltiptext">Sicilian for prostitute. <br> Pronounced "poot-tah-nahs"</span></span>. 
+                    After all, why else would any woman do such a crazy thing?"
                 `,
                 "choices": [
                     { 
@@ -558,11 +565,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
             firstDayQuiet4: { 
                 "title": "",
                 "statement": `
-                    Frowning, I am about to interupt when Zia Cecilia fixes me with a sharp eye, saying, "Remember that, <i>nipote</i>. Those girls are all <i>puttanas</i>, no-good people that you don't to associate with.
-                    It's why we Sicilians stick together and don't associate with these Americanized girls who think they're entitled to everything. 
+                    Frowning, I am about to interrupt when Zia Cecilia silences me with a sharp eye, saying, "Remember that, <span class="tooltip">nipote<span class="tooltiptext">Sicilian for niece<br>Pronounced "nee-poh-tay".</span></span>. Those girls are all no-good people you don't to associate with.
                     <br><br>
-                    "In America, these union girls are just plain lazy. They want to work less hours, they want higher pay, they even want the companies to give them time 
-                    off to have children! Can you believe this?"
+                    "Perhaps some of those girls really do believe in their silly union, but it is only because they are just plain lazy. 
+                    In America, you children think you are entitled to everything! You want to work less hours, you want higher pay, you even want time off from work to have children!
+                    My goodness, when would you even work?"
                 `,
                 "choices": [
                     { 
@@ -586,6 +593,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     },
                 ],
             },
+            //protest Zia's argument decision
             firstDayQuiet5: { 
                 "title": "",
                 "statement": `
@@ -593,11 +601,19 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     <br><br>
                     "This country spoils its people, that's what. Do ever wonder why it is us Sicilians who own the property, the boats, the canneries? It is because we work hard and keep our head down.
                     We don't complain, we don't get into trouble, but we support and help one another--- and THAT is what brings you success, my dear."
+                    <br><br>
+                    Even before she finishes her speech, something feels wrong to me about this argument, but I cannot place my finger on what. I want to protest,
+                    but to do so we certainly lead into dangerous territory.
                 `,
                 "choices": [
                     { 
                         "id": "firstDayQuiet5",
-                        "label": "Continue",
+                        "label": "Protest",
+                        "moveto": "firstDayProtest1",
+                    },
+                    { 
+                        "id": "firstDayQuiet5",
+                        "label": "Stay silent",
                         "moveto": "firstDayGoToBed",
                     },
                     
@@ -616,6 +632,142 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     },
                 ],
             },
+            //protest
+            firstDayProtest1: { 
+                "title": "",
+                "statement": `
+                    "But Zia . . . " I begin, thinking back to my experiences working on the farms in Salinas with Papa. 
+                    <br><br>
+                    "What about the women who don't have their families and communities to support them like us?
+                    What about the women whose parents are dead, whose husbands died or ran away, who has nobody in the world but 
+                    their children who are a bunch of hungry mouths to feed?
+                    <br><br>
+                    "Don't they deserve some form of protection? Some sort of living wage so they needn't live as vagrants,
+                    their children uneducated and without the opportunities or to improve their circumstances?"
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDayProtest1",
+                        "label": "Continue",
+                        "moveto": "firstDayProtest2",
+                    },
+                    
+                    
+            ],
+                "images" : [
+                ],
+            },
+            firstDayProtest2: { 
+                "title": "",
+                "statement": `
+                    Frowning, Zia Cecilia looks up, as if surprised that I had bothered to think up a retort. 
+                    <br><br>
+                    "Guilia, of course they deserve all those things, but it's not our responsibility to help them and I pity those in unfortunate circumstances. 
+                    <br><br>
+                    I don't care what the people outside this community does so long as it does not interfere with our lives. If the Spanish girls want to speak at meetings full of men,
+                    so be it. It's none of my business. 
+                    <br><br>
+                    However, I will not support such endeavors. To me (and as it should to you), my family and community always comes first."
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDayProtest2",
+                        "label": "Continue",
+                        "moveto": "firstDayProtest3",
+                    },
+                    
+                    
+            ],
+                "images" : [
+                ],
+            },
+            firstDayProtest3: { 
+                "title": "Clean Up",
+                "statement": `
+                    Standing up, Zia Cecilia signals the end of the conversation and dinner. 
+                    <br><br>
+                    Addressing her two eldest daughters, she says, "Rosa, Mary, give Guilia a hand with 
+                    cleaning up dinner. If you will excuse me, I am feeling tired am going to bed early. If would please, tuck the children in before 
+                    it gets too late. Goodnight you three. 
+                    <br><br>
+                    "And Guilia?" she adds, as she turns to leave the room. "Please think about what I said. I don't want to see you go down the wrong path."
+                `,
+                "choices": [
+                    { 
+                        "id": "firstDayProtest3",
+                        "label": "The End",
+                        "moveto":"resultProtest",
+                    },
+                    
+                    
+            ],
+                "images" : [
+                    {
+                        "img":"sicilian-girls2.webp",
+                        "caption":"Rosa <br> Zia's daughter <br> 13 years",
+
+                    },  
+                    {
+                        "img":"sicilian-girls3.jpg",
+                        "caption":"Mary <br> Zia's daughter <br>9 years",
+
+                    },  
+                ],
+            },
+            //end of game protest
+            resultProtest: {
+                "title": "Eleven Years Later . . . ",
+                "statement": `
+                    <i><span style="float:right; font-size:14px;">August 7, 1947</span>
+                    <br><br>
+                    Dear diary,
+                    <br><br>   
+                    Life in Monterey has changed a lot since I first arrived eleven years ago. 
+                    <br><br>
+                    After my conversation with Zia Cecilia on my first day of work, I decided that I didn't want to be like her and 
+                    joined some of the Spanish girls who were trying to advocate for the canneries to allow unions. I managed to convince some of the other Sicilian
+                    girls to join me, including Carmela. Once they became more informed about what a union did, they were very willing to promote one since it would 
+                    bring in more money and benefits for their families.
+                    <br><br>
+                    Of course, good things can't last forever and after a year or so, Vita found out and told Zia Cecilia. 
+                    She and Zio Ignazio got so angry that they threatened me with an ultimatum: either I could move out or marry Signora Santoro's eldest don, Calogero. Given that I had nowhere else to go, I married Calogero.
+                    <br><br>
+                    Since then, I have continued to work at the canneries, although my movements were strictly watched for many years by Signora Santoro. Eventually, I came to replace her as floor lady,
+                    but by then the sardines had already begun to disappear.
+                    <br><br>
+                    It turns out we had overfished the bay during WWII as an attempt to support the troops and as a result, the entire canning industry collapsed. 
+                    <br><br>
+                    It was an economic disaster and many of my famile and friends were forced to move away. So many Sicilians had invested in the canneries and fishing businesses, thinking that it would never fail
+                    that now they were financially ruined. However, Carmela convinced me to stay and help her and her husband establish a restuarant. To my surprise, it was a success
+                    and although we are not rich, we don't live hand-to-mouth, inspriring much of our community to do the same. 
+                    <br><br>
+                    I must go now, but hopefully one day, someone will remember this story.
+                    <br><br>
+                    Sincerely,
+                    <br>
+                    Guiliana Peretti Santoro
+                `,
+                "choices": [
+                    // { 
+                    //     "id": "joinStrike3",
+                    //     "label": "Finish",
+                    //     "moveto": "index.html",
+                    // },
+                ],
+                "images" : [
+                    {
+                        "img":"daughter1.jpg",
+                        "caption":"Antonina (my daughter)",
+
+                    },
+                    {
+                        "img":"husband.jpg",
+                        "caption":"Calogero Santoro", 
+
+                    },
+                ],
+            },
+
             //ask zia about spanish girls
             firstDayAskSpanish1: { 
                 "title": "Ask Zia Cecilia",
@@ -723,15 +875,18 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     <br><br>
                     "Now, let's hear no more talk of these <i>other</i> girls and help clean up dinner," says Zia Cecilia, rising from the table, little Angelo on her hip.
                     <br><br>
-                    "Rosa, Mary, give Guilia a hand. I will put the children to bed. Goodnight, you three."
+                    Addressing her two eldest daughters, she says, "Rosa, Mary, give Guilia a hand. I will put the other children to bed. 
+                    <br><br>
+                    "And Guilia?" she adds, about to leave the room. "Don't overanalyze everything. Just get your work done and think about it tomorrow. 
+                    After all, tomorrow is another day."
                     
                 `,
                 //figure out where to go next
                 "choices": [
                     { 
                         "id": "firstDayGoToBed",
-                        "label": "Continue",
-                        "moveto": "firstDayAskSpanish3",
+                        "label": "The End",
+                        "moveto": "diary2okay",
                     },
                     // { 
                     //     "id": "firstDayGoToBed",
@@ -757,7 +912,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             firstDaySlack1: { 
                 "title": "Speaking With Carmela",
                 "statement": `      
-                    "Carmela," I say, "When will the men return from Alaska? Zia Cecillia said Zio just left a couple of weeks ago and---"
+                    "Carmela," I say, "When will the men return from Alaska? Zia Cecillia said <span class="tooltip">Zio<span class="tooltiptext">Sicilian for uncle<br>Pronounced"dzee-oh"</span></span> left just a couple of weeks ago and---"
                     <br><br>
                     "The men will return in late October or November. Whenever the fishing season ends," Carmela responds shortly without looking
                     up from her work, clearly indicating she does not want to speak any further.
@@ -791,7 +946,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     <br><br>
                     "Vita!" I begin. "Monterey is such a little town. Is there anything to do around here that isn't . . . fishy?"
                     <br><br>
-                    I hope to get at least a couple laughs, but instead, Vita lashes out exclaiming,
+                    I hope to get at least a chuckle, but instead, Vita lashes out exclaiming,
                     "Guilia, hush! Focus on your work! By mocking your Sicilian roots, you degrade yourself and 
                     the rest of your community. You are put yourself on the same level as those Spanish and Mexican girls who do not 
                     appreciate the art of fishing, who only come here for the money."
@@ -823,22 +978,22 @@ document.addEventListener('DOMContentLoaded', (event) => {
             hushTalkLatinaDecision: { 
                 "title": "",
                 "statement": `    
-                    But I AM only here for the money, I think confusedly, looking at the other Sicilian girls around me who are determinedly refusing to make
-                    eye contact with me for fear of association.
+                    But I AM only here for the money, I think confusedly, shocked by Vita's behavior and blatant racism. 
+                    I try find a friendly face among the other Sicilian girls around me, but all are determinedly refusing to make eye contact for fear of association.
                     <br><br>
-                    Irritated with Vita's obnoxious behavior, I catch the eye of a Latina girl sitting across from me, her smiling eyes an invitation for conversation.
+                    Irritated by Vita's obnoxious behavior, I catch the eye of a Latina girl sitting across from me, her sparkling eyes an invitation for conversation.
                     <br><br>
                     I know it would only get me in trouble to talk some more, especially with a non-Sicilian girl, and it would most certainly be reported back to Zia Cecilia, 
                     but the idea of ignoring Vita's orders is tempting.
                 `,
                 "choices": [
                     { 
-                        "id": "decisionHushTalkLatina",
+                        "id": "hushTalkLatinaDecision",
                         "label": "Talk to her",
                         "moveto": "talkToMexicanGirl1",
                     },
                     { 
-                        "id": "decisionHushTalkLatina",
+                        "id": "hushTalkLatinaDecision",
                         "label": "Hush",
                         "moveto": "firstDayHush1",
                     },
@@ -919,10 +1074,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
             firstDayHush3: { 
                 "title": "",
                 "statement": ` 
-                    The walk home feels much longer than the way here. After being humiliated by Vita earlier today, all the girls although friendly, remain somewhat 
-                    distant, as if I were contaminated by some disease they don't want to catch.
+                    The walk home feels much longer than the way here. After being humiliated by Vita earlier today, although the girls remain friendly, they act somewhat 
+                    distant, as if I were contaminated by some disease they don't want to catch. 
                     <br><br>
-                    It is as if I'm one of the <i>other</i> girls--- the non-Sicilians. I'm treated kindly, but without respect.
+                    It's as if I were one other <i>them</i>--- one of the non-Sicilian girls. Politely regarded, but without consideration or true respect.
                     <br><br>
                     When I get home the situation is not much better since Zia Cecilia was at the Signora Russo's house all day with the Rosary Club and has not begun dinner.
                     After helping fix up a quick meal of pasta and legumes (for the babies), I can hardly maintain a polite appearance of listening to Zia Cecilia ramble about her day 
@@ -956,12 +1111,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     Leaning over, I smile back and introduce myself in myself in English, "Hi, I'm Guilia. I'm sorry if I'm being a bother, but I'm 
                     simply bored out of my mind. Have you been in the canneries for long? I just moved here from Salinas."
                     <br><br>
-                    "I'm Ana," the girl says with a smile. "I was just in Salinas too--- the peach orchards, you know. 
+                    "I'm Ana," the girl says with a smile. "I was just in Salinas too--- working in the peach orchards, you know. 
                     My family has been coming to Monterey for the past few years during the sardine season though."
                 `,
                 "choices": [
                     { 
-                        "id": "talkToMexicanGirl",
+                        "id": "talkToMexicanGirl1",
                         "label": "Continue",
                         "moveto": "talkToMexicanGirl2",
                     },
@@ -983,23 +1138,22 @@ document.addEventListener('DOMContentLoaded', (event) => {
             },
             talkToMexicanGirl2: { 
                 "title": "",
-                "statement": `  
-                    Next to me, Carmela gives me a sharp kick and subtly motions towards Vita who is giving me the cut eye. 
-                    Likely she is irritated because like many Sicilians who reserve themselves to their familiar communities, she rarely practices
-                    her English and cannot understand a word of what we are saying.
-                    <br><br>
-                    Therefore, emboldened by this fact, I ignore Carmela's warning and smiling brightly, ask Ana, 
-                    "I've heard that a lot of families do that. Since you've been coming here for a while, what do you do for entertainment in your spare time?"
-                    <br><br>
-                    "Hmmm, well that depends on what you're interested in . . . " Ana begins.    
+                "statement": `      
+                Under the table, Carmela gives me a sharp kick and subtly motions towards Vita who is giving me the stink eye. 
+                Likely she is irritated because like many Sicilians who remain reserved within familiar communities, she rarely practices
+                her English and can barely understand a word of what we are saying.
+                <br><br>
+                Therefore, emboldened by this fact, I ignore Carmela's warning and smiling brightly, ask Ana, 
+                "I've heard that a lot of families do that. Since you've been coming here for a while, what do you do for entertainment in your spare time?"
+                <br><br>
+                "Hmmm, well that depends on what you're interested in . . . " Ana begins.    
                 `,
                 "choices": [
                     { 
-                        "id": "talkToMexicanGir2",
+                        "id": "talkToMexicanGirl2",
                         "label": "Continue",
                         "moveto": "talkToMexicanGirl3",
                     },
-                    
 
                     
                 ],
@@ -1023,14 +1177,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     literally casting a looming shadow over me.
                     <br><br>
                     In Sicilian, she lectures, "I have already heard the other girls admonish you for chattering when you are supposed to be doing your work.
-                    Do I have to watch over you like a schoolgirl? If I have to come here again, your aunt will be hearing about this."
+                    Do I have to watch you like a schoolgirl? If I have to come here again, your aunt will be hearing about this."
                     <br><br>
                     Abashed, I lower my eyes and and mutter out an apology. Satisfied, Signora Santoro then turns around and gives a much longer 
                     lecture to Ana (in English), threatening to fire her if she does not keep to her work. 
                 `,
                 "choices": [
                     { 
-                        "id": "talkToMexicanGir3",
+                        "id": "talkToMexicanGirl3",
                         "label": "Continue",
                         "moveto": "talkToAnaDecision",
                     },
@@ -1113,7 +1267,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     },
                     {
                         "img":"crowds.jpeg",
-                        "caption":`Crowds on <a href="" class="discover">Ocean View Ave</a>`,
+                        "caption":`Crowds on Ocean View Ave`,
 
                     },
                 ],
@@ -1126,7 +1280,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     "I'm not sure," I admit. "I'm curious myself but I didn't want to get left behind since I don't know my way around here yet."
                     <br><br>
                     "True," Carmela agrees. "Besides, Signora Costa would probably be annoyed if you spent too much time talking to her anyhow. Ana is known to be 
-                    a bit of a troublemaker. She's always going to those <a href="" class="discover">CIO</a> meetings and whatnot."
+                    a bit of a troublemaker. She's always going to those <a href="https://en.wikipedia.org/wiki/Congress_of_Industrial_Organizations#:~:text=The%20Congress%20of%20Industrial%20Organizations,(AFL)%20by%20John%20L." class="discover" target="_blank">CIO</a> meetings and whatnot."
                 `,
                 "choices": [
                     { 
@@ -1160,13 +1314,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 "statement": `      
                     "CIO?" I ask confused.
                     <br><br>
-                    "It's a union a lot of the men are a part of. Well, the non-Sicilian ones, at least. They're always talking about
+                    "It's a union a lot of the men are a part of. Well, mostly the non-Sicilian ones, at least. They're always talking about
                     getting us better pay and conditions in the canneries, but so far I haven't seen any results. 
                     <br><br>
-                    "Anyhow, I think a lot of the ladies just don't like them because our men support the <a href="" class="discover">AFL</a>. It's another 
-                    union," Carmela explains when she sees the confusion on my face.
+                    "Anyhow, I think a lot of the ladies just don't like them because our men support the <a href="https://en.wikipedia.org/wiki/American_Federation_of_Labor" class="discover" target="_blank">AFL</a>. 
+                    I think it's because the two of them are having some sort of disagreement about the AFL ignoring cannery workers, but if that's true then
+                    I don't know why our men support it." 
                     <br><br>
-                    "Ana and some of her friends attend a lot of these meetings with the Spanish girls in the evenings. They tried to get me to come once
+                    "Anwways, Ana and some of her friends attend a lot of these meetings with the Spanish girls in the evenings. They tried to get me to come once,
                     but obviously I couldn't go. Can you imagine what Zia Russo would say?" she says with a shiver.
                 `,
                 "choices": [
@@ -1243,7 +1398,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 "choices": [
                     { 
                         "id": "firstDayIgnoreAna5",
-                        "label": "Continue",
+                        "label": "The End",
                         "moveto": "deathGravestone",
                     },
                     
@@ -1253,7 +1408,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 "images" : [
                     {
                         "img":"cannery-row2.jpg",
-                        "caption":`<a href="" class="discover">Ocean View Ave</a>`,
+                        "caption":`Ocean View Ave`,
 
                     },
                     {
@@ -1272,7 +1427,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     <br><br>
                     Smiling, Ana says the typical greetings and starts up a polite little conversation before getting to her point.
                     <br><br>
-                    "Hey, you said you were looking for things to do around town, right?" she asks in a hurried voice. "Well, some of my friends and I are going down to the <a href="" class="discover">Half-Way House<a/> 
+                    "Hey, you said you were looking for things to do around town, right?" she asks in a hurried voice. "Well, some of my friends and I are going down to the Half-Way House
                     after work on Friday for a union meeting. I don't know if you're interested in that sort of thing . . . "
                 `,
                 "choices": [
@@ -1316,12 +1471,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 ],
                 "images" : [
                     {
-                        "img":"fishing-boasts.jpg",
+                        "img":"fishing-boats.jpg",
                         "caption":"Boats",
 
                     },
                     {
-                        "img":"monterey1.jp3g",
+                        "img":"monterey1.jpeg",
                         "caption":"Monterey",
 
                     },
@@ -1337,7 +1492,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     "Oh, she was just inviting me to some union meeting. I declined of course," I hurriedly add, seeing the alarm on Carmela's face.
                     <br><br>
                     "Good thing you did," Carmela says, a little worriedly. "Ana is known to be 
-                    a bit of a troublemaker. She's always going to those <a href="" class="discover">CIO</a> meetings and whatnot."
+                    a bit of a troublemaker. She's always going to those <a href="https://en.wikipedia.org/wiki/Congress_of_Industrial_Organizations#:~:text=The%20Congress%20of%20Industrial%20Organizations,(AFL)%20by%20John%20L." class="discover" target="_blank">CIO</a> meetings and whatnot."
                 `,
                 "choices": [
                     { 
@@ -1365,7 +1520,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 "statement": `   
                     "Actually, I would love to come," I say brightly.
                     <br><br>
-                    "Really? That'd be fantastic!" Ana says brightly and it seems to me, somewhat surprised. "Remember, after work on Fridayyyy!," she calls 
+                    "Really? That'd be fantastic!" Ana says brightly and it seems to me, somewhat surprised. "Remember, after work on Fridayyyy!" she calls 
                     as one of her friends playfully grabs her arm and drags her away.
                 `,
                 "choices": [
@@ -1406,7 +1561,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     <br><br>
                     "Well, she won't know," I casually respond. "Because you won't tell her."
                     <br><br>
-                    All signs of distress are wiped from Carmela's face with my threat. "That's not fair Guilia! You know that Signora Costa is going to ask me where you are as soon
+                    All signs of distress are replaced with indignition on Carmela's face by threat. "That's not fair Guilia! You know that Signora Costa is going to ask me where you are as soon
                     as you don't come home from work. What am I supposed to tell her?"
                     <br><br>
                     "Nothing," I say with a grin. "Because you're going to come with me."
@@ -1440,7 +1595,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     <br><br>
                     I want her to come along because one, I have no idea where the Half-Way House is; and two, because although I don't admit it, I have my 
                     own reservations about the union. I've heard about the previous strikes and how they failed, the cannery owners simply replacing the workers with 
-                    new immigrants, ones "fresh off the boat" and willing to work in the canneries dirty conditions. 
+                    new immigrants, ones "fresh off the boat" and willing to work in the canneries terrible conditions. 
                     <br><br>
                     However, I've made my cross and now I must bear it. Friday evening, after hurrying home to change and tell Zia Cecilia that I'm going with Carmela to Vita's 
                     embroidery club for the evening, the two of us conspicuously hurry down the street to the Half-Way House.
@@ -1513,8 +1668,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
                    who left school at the age of thirteen to make extra money for his family. He made 33 cents an hour--- until he lost his left hand in machinery accident and was
                    fired by the cannery for his carelessness. 
                    <br><br>
-                   There is even a female speaker, a Spanish woman who points out that it is necessary for immigrant families to have two working parents if they are to survive,
-                   but cannot do this if they have young children. 
+                   There is even a female speaker, a Spanish woman who points out that it is necessary for immigrant families and low-income families to have at least two working adults if they are to survive,
+                   but cannot do this if they have young children and lack inexpensive child care. 
                    `,
                 "choices": [
                     { 
@@ -1582,7 +1737,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 "title": "",
                 "statement": `   
                     "Yes Dolores, we get the picture," Ana says interupts impatiently. "But we're not here to play the blame game. We're here to make change. Guilia, Carmela,
-                    we want the canneries to officially give us the right to organize a union. We are planning a big strike next spring. Lots of us are going to walk off of our
+                    we want the canneries to officially give us the right to organize a union. We are planning a big strike next spring. Lots of us are going to walk off of jobs our
                     and refuse to work until the canneries agree to give us better wages and conditions.
                     <br><br>
                     "I know that this is a lot to ask and I haven't know you for long, but this is your chance to make a difference. To advocate for change that will help EVERYBODY.
@@ -1667,7 +1822,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 "choices": [
                     { 
                         "id": "joinStrike1",
-                        "label": "Continue",
+                        "label": "The End",
                         "moveto": "deathGravestone",
                     },
                 ],
@@ -1731,7 +1886,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 "choices": [
                     { 
                         "id": "joinStrike2",
-                        "label": "Continue",
+                        "label": "The End",
                         "moveto": "joinStrike3",
                     },
                     
@@ -1751,13 +1906,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
             },
             //end screens
             joinStrike3: { 
-                "title": "Six Years Later . . . ",
+                "title": "Five Years Later . . . ",
                 "statement": `   
                     <i><span style="float:right; font-size:14px;">August 7, 1941</span>
                     <br><br>
                     Dear diary,
                     <br><br>
-                    Life in Monterey has changed a lot in the past few years. In 1936, Carmela and I spent a lot of time encouraging other girls, epecially Sicilians, to 
+                    Life in Monterey has changed a lot in the past few years. In 1937, Carmela and I spent a lot of time encouraging other girls, epecially Sicilians, to 
                     join the strike. By April, when the strike occurred, hundreds of people cannery workers walked off their jobs, forcing many cannery owners to negotiate 
                     terms with the strikers.
                     <br><br>
@@ -1765,13 +1920,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     but simply head to work from 8:00am to 5:00pm. If we have to work any longer than the, then we get paid overtime. The floor ladies aren't allowed to show such blatant favoritism anymore either and seniority
                     right are observed when appointing one. 
                     <br><br>
-                    They are also giving more rights to women too. For one, if you get pregnant you're not automatically fired. These days, they're even talking of building an on-site daycare center for cannery workers!
+                    They are also giving more rights to women too. For one, if you get pregnant you're not automatically fired. These days, they're even talking of building an on-site daycare center for the cannery workers. Can you imagine?
                     <br><br>
                     Anyhow, I've got to go now. I have work in an hour. Bye!
                     <br><br>
                     Sincerely,
                     <br>
-                    Giuliana Peretti 
+                    Guiliana Peretti 
                 `,
                 "choices": [
                     // { 
@@ -1803,7 +1958,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     <br><br>
                     However, her death was not in vain because it inspired many workers to advocate for greater workplace safety.
                     <br><br>
-                    For those still with questions, Guilianna's husband is available at all hours to comfort any grieving young woman who may be struggling with Guiliana's death.
+                    For those still with questions, Guilianna's husband is available at all hours to comfort any grieving young women who may be struggling with Guiliana's death.
                 `,
                 "choices": [
                     // { 
@@ -1820,19 +1975,19 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     },
                     {
                         "img":"husband.jpg",
-                        "caption":"Available at <br>424-298-5437", 
+                        "caption":"Available at <br>831-298-5437", 
 
                     },
                 ],
             },
-            firstDayGoToBed: { 
+            diary2okay: { 
                 "title": "Six Years Later . . . ",
                 "statement": `
                     <i><span style="float:right; font-size:14px;">August 7, 1941</span>
                     <br><br>
                     Dear diary,
                     <br><br>   
-                    Life in Monterey has changed a lot since I first arrived six years ago. 
+                    Life in Monterey has changed a lot since I first arrived five years ago. 
                     <br><br>
                     I'm not exactly sure when, but at some point I began to notice that I was recieving more money and being given paid overtime. There's no more hurrying to work
                     at short notice anymore either--- nowadays it's just an 8:00-5:00 job. 
@@ -1846,7 +2001,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     <br><br>
                     Sincerely,
                     <br>
-                    Giuliana Peretti Lombardi
+                    Guiliana Peretti Lombardi
                 `,
                 "choices": [
                     // { 
@@ -1933,6 +2088,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     renderState(next);
                     //store state values in an arrry
                     console.log(states)
+                
+                
+                    // if (states[0] == 'theBeginning') {
+                    //     document.getElementById("back-button").cursor.noDrop;
+                    // }
                 });
     
             }
