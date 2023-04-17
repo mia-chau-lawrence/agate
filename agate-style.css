@@ -5,6 +5,10 @@
 body {
     font-family:Raleway, sans-serif;
     margin:0;
+    background-color:#f2f2f2;
+    /* display:flex;
+    flex-flow:row wrap; */
+    padding: 50px 200px;
 }
 
 /*header below*/
@@ -25,15 +29,17 @@ header {
 }
 
 /*containers*/
-.page-container {
+/* .page-container {
     background-color:#f2f2f2;
     display:flex;
     width:100%;
     flex-flow:row wrap;
     padding: 50px 200px;
-}
+    height:100%;
+} */
 
 .main-enclose {
+    flex-direction:column;
     font-family:arial, sans-serif;
     box-shadow: 0 6px 12px rgba(0,0,0,0.12), 0 6px 12px rgba(0,0,0,0.24);
     transition:0.3s;
@@ -130,38 +136,6 @@ li.top-bar a {
     height:1.1em;
 }
 
-/* journal */
-.journal-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    object-fit: contain;
-    align-items: stretch;
-}
-
-.journal-container > div {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-    background-color:white;
-    margin: 30px 10px;
-    font-size: 30px;
-    overflow:hidden;
-    line-height: 1.6;
-}
-
-.journal-text {
-    padding:20px 30px;
-    font-size: 16px;
-    float:left;
-    width: 80%;
-}
-
-.journal-images {
-    width: 20%;
-    height: 100%;
-    float:right;
-    
-}
-
 /*polaroid*/
 .polaroid-container {
     display: flex;
@@ -222,7 +196,7 @@ div.polaroid-text {
     /* margin: 20px; */
     box-shadow: 0 6px 12px rgba(0,0,0,0.12), 0 6px 12px rgba(0,0,0,0.24);
     transition:0.3s;
-    max-height:95vh;
+    /* max-height:100%; */
 }
 
 /*HEREEEEEEEEEEEEEEEEEEE*/
@@ -233,6 +207,7 @@ div.polaroid-text {
     max-height:65vh;
     overflow-x: hidden;
     overflow-y: scroll;
+    flex:1 1 auto;
 }
 
 .question a {
@@ -349,13 +324,13 @@ a:hover.discover {
   }
    
   @media screen and (max-width:1000px) {
-    .page-container {
-        padding: 30px;
+    body {
+        padding: 10px;
     }
 }
 
 @media screen and (max-width:600px) {
-    .page-container {
+    body {
         padding: 15px 10px;
     }
 

@@ -551,8 +551,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
             ],
                 "images" : [
                     {
-                        "img":"family3.jpg",
-                        "caption":"Neighborhood family",
+                        "img":"italian-immigrants.jpeg",
+                        "caption":"The neighborhood",
 
                     },  
                     {
@@ -2027,6 +2027,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         };
     
         const states = [];
+       
         //new code
         function renderState (next) {
             let state = myAdventure[next];
@@ -2088,14 +2089,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     renderState(next);
                     //store state values in an arrry
                     console.log(states)
-                
-                
-                    // if (states[0] == 'theBeginning') {
-                    //     document.getElementById("back-button").cursor.noDrop;
-                    // }
                 });
     
             }
+            
             //event listener for back button
             document.getElementById('back-button').addEventListener('click', function(e) {
                 //const next = e.target.dataset.next;
@@ -2118,8 +2115,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         function goBack() {
 
         }
-    
-        //reset to theBeginning later
+
+        //start at state: theBeginning 
         let start = "theBeginning";
         renderState("theBeginning");
     
