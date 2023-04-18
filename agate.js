@@ -538,7 +538,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     <br><br>
                     "It was all so ridiculous that I couldn't help but say to the ladies---" Zia Cecilia says, lowering her voice and darting her eyes towards the children and lowering her voice.
                     "I believe some of these girls must be <span class="tooltip">puttanas<span class="tooltiptext">Sicilian for prostitute. <br> Pronounced "poot-tah-nahs"</span></span>. 
-                    After all, why else would any woman do such a crazy thing?"
+                    After all, why else would any nice woman do such a crazy thing?"
                 `,
                 "choices": [
                     { 
@@ -1981,7 +1981,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 ],
             },
             diary2okay: { 
-                "title": "Six Years Later . . . ",
+                "title": "Five Years Later . . . ",
                 "statement": `
                     <i><span style="float:right; font-size:14px;">August 7, 1941</span>
                     <br><br>
@@ -1995,7 +1995,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     I was appointed floor lady two years ago too, but I have not been allowed to exercise my power the same way Signora Santoro was allowed to back in her day.
                     When I tried to show favoritism towards one girl, I had the union leaders swooping down on me and the cannery threatening to fire me if I did anything of the sort again!
                     <br><br>
-                    At least I didn't get fired when I had my little Antonina. When I came back having my babies, I was reinstated as floor lady as if I'd never been gone.
+                    At least I didn't get fired when I had my little Antonina. When I came back after having my babies, I was reinstated as floor lady as if I'd never been gone.
                     <br><br>
                     Anyhow, I've got to go now. The children are fighting in the room over.
                     <br><br>
