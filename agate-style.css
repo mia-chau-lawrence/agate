@@ -8,7 +8,7 @@ body {
     background-color:#f2f2f2;
     /* display:flex;
     flex-flow:row wrap; */
-    padding: 50px 200px;
+    padding: 50px 175px;
 }
 
 /*header below*/
@@ -63,6 +63,10 @@ header {
     overflow:hidden;
     border-radius:5px;
     border: 6px solid #248f8f;
+}
+
+.create-menclose a {
+    color:#248f8f;
 }
 
 .create-display {
@@ -335,7 +339,7 @@ a:hover.discover {
     }
 
     .main-enclose, .create-menclose {
-        padding:10px;
+        padding:14px;
     }
 
     .polaroid-container > div {
